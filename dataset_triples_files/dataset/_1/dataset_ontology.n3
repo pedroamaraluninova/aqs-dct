@@ -1,0 +1,232 @@
+@prefix gloss: <http://www.owl-ontologies.com/OntoGlossary.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.owl-ontologies.com/AquasmartDatasets#> 
+
+
+:Dataset			rdf:type		owl:Class .
+
+:DatasetAttribute	rdf:type		owl:Class .
+:Attribute 			rdf:type		owl:Class .
+
+:Domain				rdf:type		owl:Class .
+:NumericDomain		rdf:type		owl:Class ;
+					rdfs:subClassOf	:Domain .
+:TemporalDomain		rdf:type		owl:Class ;
+					rdfs:subClassOf	:Domain .
+:CategoricDomain	rdf:type		owl:Class ;
+					rdfs:subClassOf	:Domain .
+:TextualDomain		rdf:type		owl:Class ;
+					rdfs:subClassOf	:Domain .
+:CategoricValue		rdf:type		owl:Class ;
+					rdfs:subClassOf	:Domain .
+
+:AttributeStatistic	rdf:type		owl:Class .
+:NumericStatistic	rdf:type		owl:Class .
+:TemporalStatistic	rdf:type		owl:Class .
+:CategoricStatistic	rdf:type		owl:Class .
+:TextualStatistic	rdf:type		owl:Class .
+:ValueDistribution	rdf:type		owl:Class .
+
+:DataType 			rdf:type 		owl:Class .
+:NumericType 		rdf:type 		owl:Class ;
+					rdfs:subClassOf	:DataType .
+:TextualType 		rdf:type 		owl:Class ;
+					rdfs:subClassOf	:DataType .
+:CategoricType 		rdf:type 		owl:Class ;
+					rdfs:subClassOf	:DataType .
+:TemporalType 		rdf:type 		owl:Class ;
+					rdfs:subClassOf	:DataType .
+
+:Precision 			rdf:type 		owl:Class .
+:TemporalPrecision 	rdf:type 		owl:Class ;
+					rdf:subClassOf 	:Precision .
+:NumericPrecision 	rdf:type 		owl:Class ;
+					rdf:subClassOf 	:Precision .
+:IntegerPrecision 	rdf:type 		owl:Class ;
+					rdf:subClassOf 	:NumericPrecision .
+:RealPrecision 		rdf:type 		owl:Class ;
+					rdf:subClassOf 	:NumericPrecision .
+:SecondPrecision 	rdf:type 		owl:Class ;
+					rdf:subClassOf 	:TemporalPrecision .					
+:MinutePrecision 	rdf:type 		owl:Class ;
+					rdf:subClassOf 	:TemporalPrecision .
+:HourPrecision 		rdf:type 		owl:Class ;
+					rdf:subClassOf 	:TemporalPrecision .
+:DayPrecision 		rdf:type 		owl:Class ;
+					rdf:subClassOf 	:TemporalPrecision .
+:MonthPrecision 	rdf:type 		owl:Class ;
+					rdf:subClassOf 	:TemporalPrecision .
+:YearPrecision 		rdf:type 		owl:Class ;
+					rdf:subClassOf 	:TemporalPrecision .
+
+:TimeFormat 		rdf:type 		owl:Class.
+
+:Species 			rdf:type 		owl:Class .
+
+:Sea_Bream 			rdf:type 		:Species .
+:Sea_Bass 			rdf:type 		:Species .
+
+
+#########################
+######## Dataset ########
+#########################
+
+:name 			rdf:type	owl:DataProperty ;
+			rdfs:domain 	:Dataset ;
+			rdfs:range	xsd:string .
+
+:numberOfLines	rdf:type	owl:DataProperty ;
+		rdfs:domain 	:Dataset ;
+		rdfs:range	xsd:integer .
+
+:containsAttribute 	 	rdf:type 		owl:ObjectProperty ;
+						rdfs:domain 	:Dataset ;
+						rdfs:range 		:DatasetAttribute .
+
+:timeFormat		rdf:type 	owl:ObjectProperty ;
+				rdfs:domain 	:Dataset ;
+				rdfs:range 		:TimeFormat .	
+
+####### Time Format #######
+
+:formatPrecision	rdf:type 	owl:ObjectProperty ;
+					rdfs:domain :TimeFormat ;
+					rdfs:range 	:TemporalPrecision .
+
+:format 			rdf:type 	owl:DataProperty ;
+					rdfs:domain :TimeFormat ;
+					rdfs:range 	xsd:string .
+
+##################################
+######## DatasetAttribute ########
+##################################
+
+:tableIndex		rdf:type		owl:DataProperty ;
+				rdfs:domain 	:DatasetAttribute ;
+				rdfs:range		xsd:integer .
+
+:isInstantiationOf 		rdf:type 		owl:ObjectProperty ;
+						rdfs:domain 	:DatasetAttribute ;
+						rdfs:range 		:Attribute .
+
+:hasStatistic 	rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:DatasetAttribute ;
+				rdfs:range 		:AttributeStatistic .
+
+
+###########################
+######## Attribute ########
+###########################
+
+:dataType 		rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:Attribute ;
+				rdfs:range 		:DataType .
+
+:name 			rdf:type		owl:DataProperty ;
+				rdfs:domain 	:Attribute ;
+				rdfs:range		xsd:string .
+
+:hasValuesFrom 	rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:Attribute ;
+				rdfs:range 		:Domain .
+
+:concept 		rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:Attribute ;
+				rdfs:range 		gloss:Terms .
+
+
+###########################
+########## Domain #########
+###########################
+
+
+:species			rdf:type 		owl:DataProperty ;
+					rdfs:domain 	:Domain ;
+					rdfs:range		:Species .
+
+:timePrecision 		rdf:type 		owl:ObjectProperty ;
+					rdfs:domain 	:TemporalDomain ;
+					rdfs:range 		:TemporalPrecision .
+
+:timeUpperBound 	rdf:type 		owl:DataProperty ;
+					rdfs:domain 	:TemporalDomain ;
+					rdfs:range 		xsd:dateTime .
+
+:timeLowerBound 	rdf:type 		owl:DataProperty ;
+					rdfs:domain 	:TemporalDomain ;
+					rdfs:range 		xsd:dateTime .
+
+
+:numberPrecision 	rdf:type 		owl:ObjectProperty ;
+					rdfs:domain 	:NumericDomain ;
+					rdfs:range 		:NumericPrecision .
+
+:upperBound 	rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:NumericDomain ;
+				rdfs:range 		xsd:double .
+
+:lowerBound 	rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:NumericDomain ;
+				rdfs:range 		xsd:double .
+
+:unit			rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:NumericDomain ;
+				rdfs:range 		xsd:string .
+
+
+:enumeration  	rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:CategoricDomain ;
+				rdfs:range 		:CategoricValue .
+
+:value 			rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:CategoricValue ;
+				rdfs:range 		xsd:string .
+
+:is_species		rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:CategoricValue ;
+				rdfs:range 		:Species .
+ 
+
+#####################################
+######### AttributeStatistic ########
+#####################################
+
+:mode 			rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:AttributeStatistic ;
+				rdfs:range 		xsd:double ,
+								xsd:string ,
+								xsd:dateTime .
+
+:min 			rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:TemporalStatistic,
+								:NumericStatistic ;
+				rdfs:range 		xsd:double ,
+								xsd:dateTime .
+
+:max 			rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:TemporalStatistic,
+								:NumericStatistic ;
+				rdfs:range 		xsd:double ,
+								xsd:dateTime .
+
+:average 		rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:NumericStatistic ;
+				rdfs:range 		:xsd:double .
+
+
+:distribution 	rdf:type 		owl:ObjectProperty ;
+				rdfs:domain 	:CategoricStatistic ;
+				rdfs:range 		:ValueDistribution .
+
+:targetValue 	rdf:type 		owl:DataProperty ;
+				rdfs:domain 	:ValueDistribution ;
+				rdfs:range 		xsd:string .
+
+:targerOccurences 	rdf:type 		owl:DataProperty ;
+					rdfs:domain 	:ValueDistribution ;
+					rdfs:range 		xsd:integer .
+

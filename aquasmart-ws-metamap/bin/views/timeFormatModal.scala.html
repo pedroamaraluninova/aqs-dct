@@ -1,0 +1,44 @@
+<div class="modal fade" id="timeFormatModal">
+    <div class="modal-dialog">      
+        <div class="modal-content" style="">
+            
+            <div class="modal-header">
+                <button type="button" class="close" onclick="backModal()" aria-hidden="true">&times;</button>
+                <h3 class="modal-title"><span class="bold">Format for Day date values</span></h3>
+            </div>
+            
+            <div id="modal_body" class="modal-body">
+                
+               
+                	
+                <div id="timePrecision" class="well">
+                	<h4>Select the value format used in this dataset</h4>
+                	<select id="timePrec"  class="form-control">
+                		<option id="NoneOptionFormat" value="None">None</option>
+                		<option id="SecondOption" value="dd/MM/yy" >dd/MM/yy</option>
+					    <option id="MinuteOption" value="dd/MM/yyyy" >dd/MM/yyyy</option>
+					    <option id="HourOption" value="MM/dd/yy" >MM/dd/yy</option>
+					    <option id="DayOption" value="MM/dd/yyyy" >MM/dd/yyyy</option>
+					 	<option id="Second2Option" value="dd-MM-yy" >dd-MM-yy</option>
+					    <option id="Minute2Option" value="dd-MM-yyyy" >dd-MM-yyyy</option>
+					    <option id="Hour2Option" value="MM-dd-yy" >MM-dd-yy</option>
+					    <option id="Day2Option" value="MM-dd-yyyy" >MM-dd-yyyy</option>
+					 
+					
+                	</select>
+                	
+                	
+            	</div>
+                
+                
+            </div>
+            
+            <div class="modal-footer">
+            	<a id="submitTimeFormats" class="btn btn-default" href="javascript:void(0)" 
+                			role="button">Submit</a>
+             
+            </div>
+            
+        </div>
+    </div>
+</div>

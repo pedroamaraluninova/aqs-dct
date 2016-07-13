@@ -1,0 +1,23 @@
+@(info : String, info2 : String, datasetID : String)
+
+@import helper._
+
+@pull.template( info ,info2, datasetID) {
+	
+
+	<form action="javascript:void(0)"  enctype="multipart/form-data">
+		<div class="jumbotron">
+			<h1>Aquasmart Dataset Cleaning Tool</h1>
+			<p>This is the front-end GUI for the (semanticly enhanced) dataset mapper and validator service of AQUASMART</p>
+		</div>
+	</form>
+
+	<script type="text/javascript" src="assets/javascripts/pull/species.js"></script>
+	<script type="text/javascript" src="assets/javascripts/pull/main.js"></script>
+
+	<script type="text/javascript">
+		mongoDatasetID = "@datasetID" ;
+		initialize();
+	</script>
+ 
+}

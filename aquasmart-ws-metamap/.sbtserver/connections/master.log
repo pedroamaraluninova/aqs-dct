@@ -1,0 +1,7 @@
+New log file opened at Tue Jun 28 02:51:58 WEST 2016 by 13892@amaral-UNINOVA-laptop
+Taking next connection to: 40718
+New client attempting to connect on port: 44838-40718
+  Address = /127.0.1.1:40718
+This client on port 44838 has uuid 131e0269-426c-48b2-9b8e-36a1c0be1c71 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-131e0269-426c-48b2-9b8e-36a1c0be1c71
+Taking next connection to: 40718

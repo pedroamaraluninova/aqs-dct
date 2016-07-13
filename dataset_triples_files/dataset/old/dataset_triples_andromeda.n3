@@ -1,0 +1,1812 @@
+
+
+#######  Attribute "Region"
+
+:Attribute/Region rdf:type :Attribute .
+:Attribute/Region :dataType :CategoricType .
+:Attribute/Region :name "Region" .
+
+:Attribute/Region :hasValuesFrom :Domain_Region .
+:Domain_Region rdf:type :Domain .
+:Domain_Region rdf:type :CategoricDomain .
+:CategoricValue_0 rdf:type :CategoricValue .
+:CategoricValue_0 :value "GREECE" .
+:Domain_Region :enumeration :CategoricValue_0 .
+
+
+#######  Attribute "Site"
+
+:Attribute/Site rdf:type :Attribute .
+:Attribute/Site :dataType :CategoricType .
+:Attribute/Site :name "Site" .
+
+:Attribute/Site :hasValuesFrom :Domain_Site .
+:Domain_Site rdf:type :Domain .
+:Domain_Site rdf:type :CategoricDomain .
+:CategoricValue_1 rdf:type :CategoricValue .
+:CategoricValue_1 :value "PETALAS" .
+:Domain_Site :enumeration :CategoricValue_1 .
+
+
+#######  Attribute "Unit"
+
+:Attribute/Unit rdf:type :Attribute .
+:Attribute/Unit :dataType :CategoricType .
+:Attribute/Unit :name "Unit" .
+
+:Attribute/Unit :hasValuesFrom :Domain_Unit .
+:Domain_Unit rdf:type :Domain .
+:Domain_Unit rdf:type :CategoricDomain .
+:CategoricValue_2 rdf:type :CategoricValue .
+:CategoricValue_2 :value "AKK01" .
+:Domain_Unit :enumeration :CategoricValue_2 .
+:CategoricValue_3 rdf:type :CategoricValue .
+:CategoricValue_3 :value "AKK02" .
+:Domain_Unit :enumeration :CategoricValue_3 .
+:CategoricValue_4 rdf:type :CategoricValue .
+:CategoricValue_4 :value "AKZ09" .
+:Domain_Unit :enumeration :CategoricValue_4 .
+:CategoricValue_5 rdf:type :CategoricValue .
+:CategoricValue_5 :value "DIX02" .
+:Domain_Unit :enumeration :CategoricValue_5 .
+:CategoricValue_6 rdf:type :CategoricValue .
+:CategoricValue_6 :value "AKS02" .
+:Domain_Unit :enumeration :CategoricValue_6 .
+:CategoricValue_7 rdf:type :CategoricValue .
+:CategoricValue_7 :value "AKS08" .
+:Domain_Unit :enumeration :CategoricValue_7 .
+:CategoricValue_8 rdf:type :CategoricValue .
+:CategoricValue_8 :value "AKZ02" .
+:Domain_Unit :enumeration :CategoricValue_8 .
+:CategoricValue_9 rdf:type :CategoricValue .
+:CategoricValue_9 :value "AKZ05" .
+:Domain_Unit :enumeration :CategoricValue_9 .
+:CategoricValue_10 rdf:type :CategoricValue .
+:CategoricValue_10 :value "PEZ04" .
+:Domain_Unit :enumeration :CategoricValue_10 .
+:CategoricValue_11 rdf:type :CategoricValue .
+:CategoricValue_11 :value "PED327" .
+:Domain_Unit :enumeration :CategoricValue_11 .
+:CategoricValue_12 rdf:type :CategoricValue .
+:CategoricValue_12 :value "AKZ07" .
+:Domain_Unit :enumeration :CategoricValue_12 .
+:CategoricValue_13 rdf:type :CategoricValue .
+:CategoricValue_13 :value "DIX12" .
+:Domain_Unit :enumeration :CategoricValue_13 .
+:CategoricValue_14 rdf:type :CategoricValue .
+:CategoricValue_14 :value "PEV12" .
+:Domain_Unit :enumeration :CategoricValue_14 .
+:CategoricValue_15 rdf:type :CategoricValue .
+:CategoricValue_15 :value "PEZA1" .
+:Domain_Unit :enumeration :CategoricValue_15 .
+:CategoricValue_16 rdf:type :CategoricValue .
+:CategoricValue_16 :value "AKS10" .
+:Domain_Unit :enumeration :CategoricValue_16 .
+:CategoricValue_17 rdf:type :CategoricValue .
+:CategoricValue_17 :value "AKZ01" .
+:Domain_Unit :enumeration :CategoricValue_17 .
+:CategoricValue_18 rdf:type :CategoricValue .
+:CategoricValue_18 :value "PEA05" .
+:Domain_Unit :enumeration :CategoricValue_18 .
+:CategoricValue_19 rdf:type :CategoricValue .
+:CategoricValue_19 :value "PEA03" .
+:Domain_Unit :enumeration :CategoricValue_19 .
+:CategoricValue_20 rdf:type :CategoricValue .
+:CategoricValue_20 :value "PEA02" .
+:Domain_Unit :enumeration :CategoricValue_20 .
+:CategoricValue_21 rdf:type :CategoricValue .
+:CategoricValue_21 :value "PEA06" .
+:Domain_Unit :enumeration :CategoricValue_21 .
+:CategoricValue_22 rdf:type :CategoricValue .
+:CategoricValue_22 :value "PEZ06" .
+:Domain_Unit :enumeration :CategoricValue_22 .
+:CategoricValue_23 rdf:type :CategoricValue .
+:CategoricValue_23 :value "AKP02" .
+:Domain_Unit :enumeration :CategoricValue_23 .
+:CategoricValue_24 rdf:type :CategoricValue .
+:CategoricValue_24 :value "PEZ02" .
+:Domain_Unit :enumeration :CategoricValue_24 .
+:CategoricValue_25 rdf:type :CategoricValue .
+:CategoricValue_25 :value "PEA14" .
+:Domain_Unit :enumeration :CategoricValue_25 .
+:CategoricValue_26 rdf:type :CategoricValue .
+:CategoricValue_26 :value "PEA12" .
+:Domain_Unit :enumeration :CategoricValue_26 .
+:CategoricValue_27 rdf:type :CategoricValue .
+:CategoricValue_27 :value "PEV07" .
+:Domain_Unit :enumeration :CategoricValue_27 .
+:CategoricValue_28 rdf:type :CategoricValue .
+:CategoricValue_28 :value "AKS09" .
+:Domain_Unit :enumeration :CategoricValue_28 .
+:CategoricValue_29 rdf:type :CategoricValue .
+:CategoricValue_29 :value "PEG16" .
+:Domain_Unit :enumeration :CategoricValue_29 .
+:CategoricValue_30 rdf:type :CategoricValue .
+:CategoricValue_30 :value "AKZ08" .
+:Domain_Unit :enumeration :CategoricValue_30 .
+:CategoricValue_31 rdf:type :CategoricValue .
+:CategoricValue_31 :value "DIX11" .
+:Domain_Unit :enumeration :CategoricValue_31 .
+:CategoricValue_32 rdf:type :CategoricValue .
+:CategoricValue_32 :value "PEA01" .
+:Domain_Unit :enumeration :CategoricValue_32 .
+:CategoricValue_33 rdf:type :CategoricValue .
+:CategoricValue_33 :value "PEG03" .
+:Domain_Unit :enumeration :CategoricValue_33 .
+:CategoricValue_34 rdf:type :CategoricValue .
+:CategoricValue_34 :value "PEG05" .
+:Domain_Unit :enumeration :CategoricValue_34 .
+:CategoricValue_35 rdf:type :CategoricValue .
+:CategoricValue_35 :value "PED324" .
+:Domain_Unit :enumeration :CategoricValue_35 .
+:CategoricValue_36 rdf:type :CategoricValue .
+:CategoricValue_36 :value "PEZ12" .
+:Domain_Unit :enumeration :CategoricValue_36 .
+:CategoricValue_37 rdf:type :CategoricValue .
+:CategoricValue_37 :value "PEG08" .
+:Domain_Unit :enumeration :CategoricValue_37 .
+:CategoricValue_38 rdf:type :CategoricValue .
+:CategoricValue_38 :value "PEG18" .
+:Domain_Unit :enumeration :CategoricValue_38 .
+:CategoricValue_39 rdf:type :CategoricValue .
+:CategoricValue_39 :value "PEG19" .
+:Domain_Unit :enumeration :CategoricValue_39 .
+:CategoricValue_40 rdf:type :CategoricValue .
+:CategoricValue_40 :value "PED323" .
+:Domain_Unit :enumeration :CategoricValue_40 .
+:CategoricValue_41 rdf:type :CategoricValue .
+:CategoricValue_41 :value "PEG09" .
+:Domain_Unit :enumeration :CategoricValue_41 .
+:CategoricValue_42 rdf:type :CategoricValue .
+:CategoricValue_42 :value "PEZ10" .
+:Domain_Unit :enumeration :CategoricValue_42 .
+:CategoricValue_43 rdf:type :CategoricValue .
+:CategoricValue_43 :value "PEG22" .
+:Domain_Unit :enumeration :CategoricValue_43 .
+:CategoricValue_44 rdf:type :CategoricValue .
+:CategoricValue_44 :value "DIX10" .
+:Domain_Unit :enumeration :CategoricValue_44 .
+:CategoricValue_45 rdf:type :CategoricValue .
+:CategoricValue_45 :value "PEA13" .
+:Domain_Unit :enumeration :CategoricValue_45 .
+:CategoricValue_46 rdf:type :CategoricValue .
+:CategoricValue_46 :value "PEZ03" .
+:Domain_Unit :enumeration :CategoricValue_46 .
+:CategoricValue_47 rdf:type :CategoricValue .
+:CategoricValue_47 :value "PEG20" .
+:Domain_Unit :enumeration :CategoricValue_47 .
+:CategoricValue_48 rdf:type :CategoricValue .
+:CategoricValue_48 :value "PEA15" .
+:Domain_Unit :enumeration :CategoricValue_48 .
+:CategoricValue_49 rdf:type :CategoricValue .
+:CategoricValue_49 :value "PEZ05" .
+:Domain_Unit :enumeration :CategoricValue_49 .
+:CategoricValue_50 rdf:type :CategoricValue .
+:CategoricValue_50 :value "PED326" .
+:Domain_Unit :enumeration :CategoricValue_50 .
+:CategoricValue_51 rdf:type :CategoricValue .
+:CategoricValue_51 :value "PEZ15" .
+:Domain_Unit :enumeration :CategoricValue_51 .
+:CategoricValue_52 rdf:type :CategoricValue .
+:CategoricValue_52 :value "PEZ11" .
+:Domain_Unit :enumeration :CategoricValue_52 .
+:CategoricValue_53 rdf:type :CategoricValue .
+:CategoricValue_53 :value "PEV06" .
+:Domain_Unit :enumeration :CategoricValue_53 .
+:CategoricValue_54 rdf:type :CategoricValue .
+:CategoricValue_54 :value "PEG07" .
+:Domain_Unit :enumeration :CategoricValue_54 .
+:CategoricValue_55 rdf:type :CategoricValue .
+:CategoricValue_55 :value "AKS06" .
+:Domain_Unit :enumeration :CategoricValue_55 .
+:CategoricValue_56 rdf:type :CategoricValue .
+:CategoricValue_56 :value "PEA11" .
+:Domain_Unit :enumeration :CategoricValue_56 .
+:CategoricValue_57 rdf:type :CategoricValue .
+:CategoricValue_57 :value "PEV03" .
+:Domain_Unit :enumeration :CategoricValue_57 .
+:CategoricValue_58 rdf:type :CategoricValue .
+:CategoricValue_58 :value "PEG17" .
+:Domain_Unit :enumeration :CategoricValue_58 .
+:CategoricValue_59 rdf:type :CategoricValue .
+:CategoricValue_59 :value "DIX07" .
+:Domain_Unit :enumeration :CategoricValue_59 .
+:CategoricValue_60 rdf:type :CategoricValue .
+:CategoricValue_60 :value "AKS04" .
+:Domain_Unit :enumeration :CategoricValue_60 .
+:CategoricValue_61 rdf:type :CategoricValue .
+:CategoricValue_61 :value "DIX03" .
+:Domain_Unit :enumeration :CategoricValue_61 .
+:CategoricValue_62 rdf:type :CategoricValue .
+:CategoricValue_62 :value "AKZ06" .
+:Domain_Unit :enumeration :CategoricValue_62 .
+:CategoricValue_63 rdf:type :CategoricValue .
+:CategoricValue_63 :value "PEG06" .
+:Domain_Unit :enumeration :CategoricValue_63 .
+:CategoricValue_64 rdf:type :CategoricValue .
+:CategoricValue_64 :value "AKS03" .
+:Domain_Unit :enumeration :CategoricValue_64 .
+:CategoricValue_65 rdf:type :CategoricValue .
+:CategoricValue_65 :value "PEV13" .
+:Domain_Unit :enumeration :CategoricValue_65 .
+:CategoricValue_66 rdf:type :CategoricValue .
+:CategoricValue_66 :value "PEV08" .
+:Domain_Unit :enumeration :CategoricValue_66 .
+:CategoricValue_67 rdf:type :CategoricValue .
+:CategoricValue_67 :value "ANP02" .
+:Domain_Unit :enumeration :CategoricValue_67 .
+:CategoricValue_68 rdf:type :CategoricValue .
+:CategoricValue_68 :value "PEV05" .
+:Domain_Unit :enumeration :CategoricValue_68 .
+:CategoricValue_69 rdf:type :CategoricValue .
+:CategoricValue_69 :value "PEA10" .
+:Domain_Unit :enumeration :CategoricValue_69 .
+:CategoricValue_70 rdf:type :CategoricValue .
+:CategoricValue_70 :value "DIX09" .
+:Domain_Unit :enumeration :CategoricValue_70 .
+:CategoricValue_71 rdf:type :CategoricValue .
+:CategoricValue_71 :value "PEA09" .
+:Domain_Unit :enumeration :CategoricValue_71 .
+:CategoricValue_72 rdf:type :CategoricValue .
+:CategoricValue_72 :value "AKZ04" .
+:Domain_Unit :enumeration :CategoricValue_72 .
+:CategoricValue_73 rdf:type :CategoricValue .
+:CategoricValue_73 :value "AKK04" .
+:Domain_Unit :enumeration :CategoricValue_73 .
+:CategoricValue_74 rdf:type :CategoricValue .
+:CategoricValue_74 :value "AKS05" .
+:Domain_Unit :enumeration :CategoricValue_74 .
+:CategoricValue_75 rdf:type :CategoricValue .
+:CategoricValue_75 :value "DIX08" .
+:Domain_Unit :enumeration :CategoricValue_75 .
+:CategoricValue_76 rdf:type :CategoricValue .
+:CategoricValue_76 :value "ANP04" .
+:Domain_Unit :enumeration :CategoricValue_76 .
+:CategoricValue_77 rdf:type :CategoricValue .
+:CategoricValue_77 :value "AKZ05B" .
+:Domain_Unit :enumeration :CategoricValue_77 .
+:CategoricValue_78 rdf:type :CategoricValue .
+:CategoricValue_78 :value "PEZV13" .
+:Domain_Unit :enumeration :CategoricValue_78 .
+:CategoricValue_79 rdf:type :CategoricValue .
+:CategoricValue_79 :value "ANP05" .
+:Domain_Unit :enumeration :CategoricValue_79 .
+:CategoricValue_80 rdf:type :CategoricValue .
+:CategoricValue_80 :value "AKZK1" .
+:Domain_Unit :enumeration :CategoricValue_80 .
+:CategoricValue_81 rdf:type :CategoricValue .
+:CategoricValue_81 :value "ANP06" .
+:Domain_Unit :enumeration :CategoricValue_81 .
+:CategoricValue_82 rdf:type :CategoricValue .
+:CategoricValue_82 :value "AKZ03V" .
+:Domain_Unit :enumeration :CategoricValue_82 .
+:CategoricValue_83 rdf:type :CategoricValue .
+:CategoricValue_83 :value "AKS01" .
+:Domain_Unit :enumeration :CategoricValue_83 .
+:CategoricValue_84 rdf:type :CategoricValue .
+:CategoricValue_84 :value "DIX04" .
+:Domain_Unit :enumeration :CategoricValue_84 .
+:CategoricValue_85 rdf:type :CategoricValue .
+:CategoricValue_85 :value "PEZ09" .
+:Domain_Unit :enumeration :CategoricValue_85 .
+:CategoricValue_86 rdf:type :CategoricValue .
+:CategoricValue_86 :value "AKZ03" .
+:Domain_Unit :enumeration :CategoricValue_86 .
+:CategoricValue_87 rdf:type :CategoricValue .
+:CategoricValue_87 :value "PEV15" .
+:Domain_Unit :enumeration :CategoricValue_87 .
+:CategoricValue_88 rdf:type :CategoricValue .
+:CategoricValue_88 :value "PEA08" .
+:Domain_Unit :enumeration :CategoricValue_88 .
+:CategoricValue_89 rdf:type :CategoricValue .
+:CategoricValue_89 :value "PEG04" .
+:Domain_Unit :enumeration :CategoricValue_89 .
+:CategoricValue_90 rdf:type :CategoricValue .
+:CategoricValue_90 :value "PEV04" .
+:Domain_Unit :enumeration :CategoricValue_90 .
+:CategoricValue_91 rdf:type :CategoricValue .
+:CategoricValue_91 :value "PEG21" .
+:Domain_Unit :enumeration :CategoricValue_91 .
+:CategoricValue_92 rdf:type :CategoricValue .
+:CategoricValue_92 :value "PEV16" .
+:Domain_Unit :enumeration :CategoricValue_92 .
+:CategoricValue_93 rdf:type :CategoricValue .
+:CategoricValue_93 :value "PEG14" .
+:Domain_Unit :enumeration :CategoricValue_93 .
+:CategoricValue_94 rdf:type :CategoricValue .
+:CategoricValue_94 :value "PEA04" .
+:Domain_Unit :enumeration :CategoricValue_94 .
+:CategoricValue_95 rdf:type :CategoricValue .
+:CategoricValue_95 :value "PEG15" .
+:Domain_Unit :enumeration :CategoricValue_95 .
+:CategoricValue_96 rdf:type :CategoricValue .
+:CategoricValue_96 :value "PEV14" .
+:Domain_Unit :enumeration :CategoricValue_96 .
+
+
+#######  Attribute "Batch"
+
+:Attribute/Batch rdf:type :Attribute .
+:Attribute/Batch :dataType :CategoricType .
+:Attribute/Batch :name "Batch" .
+
+:Attribute/Batch :hasValuesFrom :Domain_Batch .
+:Domain_Batch rdf:type :Domain .
+:Domain_Batch rdf:type :CategoricDomain .
+:CategoricValue_97 rdf:type :CategoricValue .
+:CategoricValue_97 :value "BAS01032013NIR" .
+:Domain_Batch :enumeration :CategoricValue_97 .
+:CategoricValue_98 rdf:type :CategoricValue .
+:CategoricValue_98 :value "BAS01042014VMI" .
+:Domain_Batch :enumeration :CategoricValue_98 .
+:CategoricValue_99 rdf:type :CategoricValue .
+:CategoricValue_99 :value "BAS01062013NIR" .
+:Domain_Batch :enumeration :CategoricValue_99 .
+:CategoricValue_100 rdf:type :CategoricValue .
+:CategoricValue_100 :value "BAS01062013NIRx" .
+:Domain_Batch :enumeration :CategoricValue_100 .
+:CategoricValue_101 rdf:type :CategoricValue .
+:CategoricValue_101 :value "BAS02032013NIR" .
+:Domain_Batch :enumeration :CategoricValue_101 .
+:CategoricValue_102 rdf:type :CategoricValue .
+:CategoricValue_102 :value "BAS03052014VML (A5B)" .
+:Domain_Batch :enumeration :CategoricValue_102 .
+:CategoricValue_103 rdf:type :CategoricValue .
+:CategoricValue_103 :value "BAS04042014VML (S10V)" .
+:Domain_Batch :enumeration :CategoricValue_103 .
+:CategoricValue_104 rdf:type :CategoricValue .
+:CategoricValue_104 :value "BAS05092013VMLGE" .
+:Domain_Batch :enumeration :CategoricValue_104 .
+:CategoricValue_105 rdf:type :CategoricValue .
+:CategoricValue_105 :value "BAS06052015VMS" .
+:Domain_Batch :enumeration :CategoricValue_105 .
+:CategoricValue_106 rdf:type :CategoricValue .
+:CategoricValue_106 :value "BAS07032015VML" .
+:Domain_Batch :enumeration :CategoricValue_106 .
+:CategoricValue_107 rdf:type :CategoricValue .
+:CategoricValue_107 :value "BAS07032015VML B" .
+:Domain_Batch :enumeration :CategoricValue_107 .
+:CategoricValue_108 rdf:type :CategoricValue .
+:CategoricValue_108 :value "BAS07052014VML" .
+:Domain_Batch :enumeration :CategoricValue_108 .
+:CategoricValue_109 rdf:type :CategoricValue .
+:CategoricValue_109 :value "BAS09042013NIRA" .
+:Domain_Batch :enumeration :CategoricValue_109 .
+:CategoricValue_110 rdf:type :CategoricValue .
+:CategoricValue_110 :value "BAS09042013NIRV" .
+:Domain_Batch :enumeration :CategoricValue_110 .
+:CategoricValue_111 rdf:type :CategoricValue .
+:CategoricValue_111 :value "BAS09042015VML A" .
+:Domain_Batch :enumeration :CategoricValue_111 .
+:CategoricValue_112 rdf:type :CategoricValue .
+:CategoricValue_112 :value "BAS09042015VML B" .
+:Domain_Batch :enumeration :CategoricValue_112 .
+:CategoricValue_113 rdf:type :CategoricValue .
+:CategoricValue_113 :value "BAS09082014VML" .
+:Domain_Batch :enumeration :CategoricValue_113 .
+:CategoricValue_114 rdf:type :CategoricValue .
+:CategoricValue_114 :value "BAS09102013NS" .
+:Domain_Batch :enumeration :CategoricValue_114 .
+:CategoricValue_115 rdf:type :CategoricValue .
+:CategoricValue_115 :value "BAS09112014VMS" .
+:Domain_Batch :enumeration :CategoricValue_115 .
+:CategoricValue_116 rdf:type :CategoricValue .
+:CategoricValue_116 :value "BAS10102014VNS" .
+:Domain_Batch :enumeration :CategoricValue_116 .
+:CategoricValue_117 rdf:type :CategoricValue .
+:CategoricValue_117 :value "BAS11022015VMI A" .
+:Domain_Batch :enumeration :CategoricValue_117 .
+:CategoricValue_118 rdf:type :CategoricValue .
+:CategoricValue_118 :value "BAS11022015VMI V" .
+:Domain_Batch :enumeration :CategoricValue_118 .
+:CategoricValue_119 rdf:type :CategoricValue .
+:CategoricValue_119 :value "BAS11042013NIR" .
+:Domain_Batch :enumeration :CategoricValue_119 .
+:CategoricValue_120 rdf:type :CategoricValue .
+:CategoricValue_120 :value "BAS11042014VML(S7B)" .
+:Domain_Batch :enumeration :CategoricValue_120 .
+:CategoricValue_121 rdf:type :CategoricValue .
+:CategoricValue_121 :value "BAS11062013NIR" .
+:Domain_Batch :enumeration :CategoricValue_121 .
+:CategoricValue_122 rdf:type :CategoricValue .
+:CategoricValue_122 :value "BAS11102014VMS" .
+:Domain_Batch :enumeration :CategoricValue_122 .
+:CategoricValue_123 rdf:type :CategoricValue .
+:CategoricValue_123 :value "BAS11112014VMS" .
+:Domain_Batch :enumeration :CategoricValue_123 .
+:CategoricValue_124 rdf:type :CategoricValue .
+:CategoricValue_124 :value "BAS13092014VML" .
+:Domain_Batch :enumeration :CategoricValue_124 .
+:CategoricValue_125 rdf:type :CategoricValue .
+:CategoricValue_125 :value "BAS13112014VMS" .
+:Domain_Batch :enumeration :CategoricValue_125 .
+:CategoricValue_126 rdf:type :CategoricValue .
+:CategoricValue_126 :value "BAS13122013VON" .
+:Domain_Batch :enumeration :CategoricValue_126 .
+:CategoricValue_127 rdf:type :CategoricValue .
+:CategoricValue_127 :value "BAS13122014VMS" .
+:Domain_Batch :enumeration :CategoricValue_127 .
+:CategoricValue_128 rdf:type :CategoricValue .
+:CategoricValue_128 :value "BAS14032014VMI" .
+:Domain_Batch :enumeration :CategoricValue_128 .
+:CategoricValue_129 rdf:type :CategoricValue .
+:CategoricValue_129 :value "BAS14042014VML" .
+:Domain_Batch :enumeration :CategoricValue_129 .
+:CategoricValue_130 rdf:type :CategoricValue .
+:CategoricValue_130 :value "BAS14042014VMLx" .
+:Domain_Batch :enumeration :CategoricValue_130 .
+:CategoricValue_131 rdf:type :CategoricValue .
+:CategoricValue_131 :value "BAS14042015VML" .
+:Domain_Batch :enumeration :CategoricValue_131 .
+:CategoricValue_132 rdf:type :CategoricValue .
+:CategoricValue_132 :value "BAS17042014VML" .
+:Domain_Batch :enumeration :CategoricValue_132 .
+:CategoricValue_133 rdf:type :CategoricValue .
+:CategoricValue_133 :value "BAS17042015VML A" .
+:Domain_Batch :enumeration :CategoricValue_133 .
+:CategoricValue_134 rdf:type :CategoricValue .
+:CategoricValue_134 :value "BAS17042015VML B" .
+:Domain_Batch :enumeration :CategoricValue_134 .
+:CategoricValue_135 rdf:type :CategoricValue .
+:CategoricValue_135 :value "BAS17112014VMS" .
+:Domain_Batch :enumeration :CategoricValue_135 .
+:CategoricValue_136 rdf:type :CategoricValue .
+:CategoricValue_136 :value "BAS17122013VON" .
+:Domain_Batch :enumeration :CategoricValue_136 .
+:CategoricValue_137 rdf:type :CategoricValue .
+:CategoricValue_137 :value "BAS18072013VON" .
+:Domain_Batch :enumeration :CategoricValue_137 .
+:CategoricValue_138 rdf:type :CategoricValue .
+:CategoricValue_138 :value "BAS18072014VML" .
+:Domain_Batch :enumeration :CategoricValue_138 .
+:CategoricValue_139 rdf:type :CategoricValue .
+:CategoricValue_139 :value "BAS19062013NIR" .
+:Domain_Batch :enumeration :CategoricValue_139 .
+:CategoricValue_140 rdf:type :CategoricValue .
+:CategoricValue_140 :value "BAS19092014VML" .
+:Domain_Batch :enumeration :CategoricValue_140 .
+:CategoricValue_141 rdf:type :CategoricValue .
+:CategoricValue_141 :value "BAS20032014VA" .
+:Domain_Batch :enumeration :CategoricValue_141 .
+:CategoricValue_142 rdf:type :CategoricValue .
+:CategoricValue_142 :value "BAS20032014xVA" .
+:Domain_Batch :enumeration :CategoricValue_142 .
+:CategoricValue_143 rdf:type :CategoricValue .
+:CategoricValue_143 :value "BAS20032015VML" .
+:Domain_Batch :enumeration :CategoricValue_143 .
+:CategoricValue_144 rdf:type :CategoricValue .
+:CategoricValue_144 :value "BAS21032015VML" .
+:Domain_Batch :enumeration :CategoricValue_144 .
+:CategoricValue_145 rdf:type :CategoricValue .
+:CategoricValue_145 :value "BAS22052013NIR" .
+:Domain_Batch :enumeration :CategoricValue_145 .
+:CategoricValue_146 rdf:type :CategoricValue .
+:CategoricValue_146 :value "BAS22052013NIRx" .
+:Domain_Batch :enumeration :CategoricValue_146 .
+:CategoricValue_147 rdf:type :CategoricValue .
+:CategoricValue_147 :value "BAS22092014VMS" .
+:Domain_Batch :enumeration :CategoricValue_147 .
+:CategoricValue_148 rdf:type :CategoricValue .
+:CategoricValue_148 :value "BAS22102014DS" .
+:Domain_Batch :enumeration :CategoricValue_148 .
+:CategoricValue_149 rdf:type :CategoricValue .
+:CategoricValue_149 :value "BAS23042014VML" .
+:Domain_Batch :enumeration :CategoricValue_149 .
+:CategoricValue_150 rdf:type :CategoricValue .
+:CategoricValue_150 :value "BAS23082014VML" .
+:Domain_Batch :enumeration :CategoricValue_150 .
+:CategoricValue_151 rdf:type :CategoricValue .
+:CategoricValue_151 :value "BAS23092014VMS" .
+:Domain_Batch :enumeration :CategoricValue_151 .
+:CategoricValue_152 rdf:type :CategoricValue .
+:CategoricValue_152 :value "BAS24112014VMS" .
+:Domain_Batch :enumeration :CategoricValue_152 .
+:CategoricValue_153 rdf:type :CategoricValue .
+:CategoricValue_153 :value "BAS25072014VML" .
+:Domain_Batch :enumeration :CategoricValue_153 .
+:CategoricValue_154 rdf:type :CategoricValue .
+:CategoricValue_154 :value "BAS26102013NS" .
+:Domain_Batch :enumeration :CategoricValue_154 .
+:CategoricValue_155 rdf:type :CategoricValue .
+:CategoricValue_155 :value "BAS27042015VA" .
+:Domain_Batch :enumeration :CategoricValue_155 .
+:CategoricValue_156 rdf:type :CategoricValue .
+:CategoricValue_156 :value "BAS27062015VML  V" .
+:Domain_Batch :enumeration :CategoricValue_156 .
+:CategoricValue_157 rdf:type :CategoricValue .
+:CategoricValue_157 :value "BAS27062015VML A" .
+:Domain_Batch :enumeration :CategoricValue_157 .
+:CategoricValue_158 rdf:type :CategoricValue .
+:CategoricValue_158 :value "BAS27082013VMLEN" .
+:Domain_Batch :enumeration :CategoricValue_158 .
+:CategoricValue_159 rdf:type :CategoricValue .
+:CategoricValue_159 :value "BAS27082014VMSA" .
+:Domain_Batch :enumeration :CategoricValue_159 .
+:CategoricValue_160 rdf:type :CategoricValue .
+:CategoricValue_160 :value "BAS27082014VMSB" .
+:Domain_Batch :enumeration :CategoricValue_160 .
+:CategoricValue_161 rdf:type :CategoricValue .
+:CategoricValue_161 :value "BAS27102014DS" .
+:Domain_Batch :enumeration :CategoricValue_161 .
+:CategoricValue_162 rdf:type :CategoricValue .
+:CategoricValue_162 :value "BAS28032015VML A" .
+:Domain_Batch :enumeration :CategoricValue_162 .
+:CategoricValue_163 rdf:type :CategoricValue .
+:CategoricValue_163 :value "BAS28032015VML B" .
+:Domain_Batch :enumeration :CategoricValue_163 .
+:CategoricValue_164 rdf:type :CategoricValue .
+:CategoricValue_164 :value "BAS28072014VML" .
+:Domain_Batch :enumeration :CategoricValue_164 .
+:CategoricValue_165 rdf:type :CategoricValue .
+:CategoricValue_165 :value "BAS29032014VMI" .
+:Domain_Batch :enumeration :CategoricValue_165 .
+:CategoricValue_166 rdf:type :CategoricValue .
+:CategoricValue_166 :value "BAS29042013NIR" .
+:Domain_Batch :enumeration :CategoricValue_166 .
+:CategoricValue_167 rdf:type :CategoricValue .
+:CategoricValue_167 :value "BAS29092014VMS" .
+:Domain_Batch :enumeration :CategoricValue_167 .
+:CategoricValue_168 rdf:type :CategoricValue .
+:CategoricValue_168 :value "BAS29102013NS" .
+:Domain_Batch :enumeration :CategoricValue_168 .
+:CategoricValue_169 rdf:type :CategoricValue .
+:CategoricValue_169 :value "BAS30082014VMS A" .
+:Domain_Batch :enumeration :CategoricValue_169 .
+:CategoricValue_170 rdf:type :CategoricValue .
+:CategoricValue_170 :value "BAS30082014VMS B" .
+:Domain_Batch :enumeration :CategoricValue_170 .
+:CategoricValue_171 rdf:type :CategoricValue .
+:CategoricValue_171 :value "BAS31032014VMI" .
+:Domain_Batch :enumeration :CategoricValue_171 .
+:CategoricValue_172 rdf:type :CategoricValue .
+:CategoricValue_172 :value "BAS31072013VON" .
+:Domain_Batch :enumeration :CategoricValue_172 .
+:CategoricValue_173 rdf:type :CategoricValue .
+:CategoricValue_173 :value "BAS31072013VONx" .
+:Domain_Batch :enumeration :CategoricValue_173 .
+:CategoricValue_174 rdf:type :CategoricValue .
+:CategoricValue_174 :value "BAS31072014VML" .
+:Domain_Batch :enumeration :CategoricValue_174 .
+:CategoricValue_175 rdf:type :CategoricValue .
+:CategoricValue_175 :value "L1/12/12A-NHR" .
+:Domain_Batch :enumeration :CategoricValue_175 .
+:CategoricValue_176 rdf:type :CategoricValue .
+:CategoricValue_176 :value "L1/12/12B-NHR" .
+:Domain_Batch :enumeration :CategoricValue_176 .
+:CategoricValue_177 rdf:type :CategoricValue .
+:CategoricValue_177 :value "L10/4/12A-NHR" .
+:Domain_Batch :enumeration :CategoricValue_177 .
+:CategoricValue_178 rdf:type :CategoricValue .
+:CategoricValue_178 :value "L10/4/12B-NHR" .
+:Domain_Batch :enumeration :CategoricValue_178 .
+:CategoricValue_179 rdf:type :CategoricValue .
+:CategoricValue_179 :value "L10/5/12-NHR" .
+:Domain_Batch :enumeration :CategoricValue_179 .
+:CategoricValue_180 rdf:type :CategoricValue .
+:CategoricValue_180 :value "L12/6/12A-NHR" .
+:Domain_Batch :enumeration :CategoricValue_180 .
+:CategoricValue_181 rdf:type :CategoricValue .
+:CategoricValue_181 :value "L12/6/12B-NHR" .
+:Domain_Batch :enumeration :CategoricValue_181 .
+:CategoricValue_182 rdf:type :CategoricValue .
+:CategoricValue_182 :value "L16/6/12A-HEL" .
+:Domain_Batch :enumeration :CategoricValue_182 .
+:CategoricValue_183 rdf:type :CategoricValue .
+:CategoricValue_183 :value "L16/6/12B-HEL" .
+:Domain_Batch :enumeration :CategoricValue_183 .
+:CategoricValue_184 rdf:type :CategoricValue .
+:CategoricValue_184 :value "L17/8/12A-NHR" .
+:Domain_Batch :enumeration :CategoricValue_184 .
+:CategoricValue_185 rdf:type :CategoricValue .
+:CategoricValue_185 :value "L17/8/12B-NHR" .
+:Domain_Batch :enumeration :CategoricValue_185 .
+:CategoricValue_186 rdf:type :CategoricValue .
+:CategoricValue_186 :value "L19/5/12A-HEL" .
+:Domain_Batch :enumeration :CategoricValue_186 .
+:CategoricValue_187 rdf:type :CategoricValue .
+:CategoricValue_187 :value "L19/5/12B-HEL" .
+:Domain_Batch :enumeration :CategoricValue_187 .
+:CategoricValue_188 rdf:type :CategoricValue .
+:CategoricValue_188 :value "L21/5/12-HEL" .
+:Domain_Batch :enumeration :CategoricValue_188 .
+:CategoricValue_189 rdf:type :CategoricValue .
+:CategoricValue_189 :value "L23/11/12-NHR" .
+:Domain_Batch :enumeration :CategoricValue_189 .
+:CategoricValue_190 rdf:type :CategoricValue .
+:CategoricValue_190 :value "L25/6/12A" .
+:Domain_Batch :enumeration :CategoricValue_190 .
+:CategoricValue_191 rdf:type :CategoricValue .
+:CategoricValue_191 :value "L25/6/12B" .
+:Domain_Batch :enumeration :CategoricValue_191 .
+:CategoricValue_192 rdf:type :CategoricValue .
+:CategoricValue_192 :value "L29/3/12-HEL" .
+:Domain_Batch :enumeration :CategoricValue_192 .
+:CategoricValue_193 rdf:type :CategoricValue .
+:CategoricValue_193 :value "L5/7/12-HEL" .
+:Domain_Batch :enumeration :CategoricValue_193 .
+:CategoricValue_194 rdf:type :CategoricValue .
+:CategoricValue_194 :value "L6/7/12-VER" .
+:Domain_Batch :enumeration :CategoricValue_194 .
+:CategoricValue_195 rdf:type :CategoricValue .
+:CategoricValue_195 :value "L8/11/12A-NHR" .
+:Domain_Batch :enumeration :CategoricValue_195 .
+:CategoricValue_196 rdf:type :CategoricValue .
+:CategoricValue_196 :value "L8/11/12B-NHR" .
+:Domain_Batch :enumeration :CategoricValue_196 .
+
+
+#######  Attribute "Species"
+
+:Attribute/Species rdf:type :Attribute .
+:Attribute/Species :dataType :CategoricType .
+:Attribute/Species :name "Species" .
+
+:Attribute/Species :hasValuesFrom :Domain_Species .
+:Domain_Species rdf:type :Domain .
+:Domain_Species rdf:type :CategoricDomain .
+:CategoricValue_197 rdf:type :CategoricValue .
+:CategoricValue_197 :value "BASS" .
+:Domain_Species :enumeration :CategoricValue_197 .
+
+
+#######  Attribute "Start Fish Density"
+
+:Attribute/Start_Fish_Density rdf:type :Attribute .
+:Attribute/Start_Fish_Density :dataType :NumericType .
+:Attribute/Start_Fish_Density :name "Start Fish Density" .
+
+:Attribute/Start_Fish_Density :hasValuesFrom :Domain_Start_Fish_Density .
+:Domain_Start_Fish_Density rdf:type :Domain .
+:Domain_Start_Fish_Density rdf:type :NumericDomain .
+:Domain_Start_Fish_Density :numberPrecision :RealPrecision .
+:Domain_Start_Fish_Density :lowerBound "0.07" .
+:Domain_Start_Fish_Density :upperBound "15.07" .
+:Domain_Start_Fish_Density :unit "" .
+
+
+#######  Attribute "End Fish Density"
+
+:Attribute/End_Fish_Density rdf:type :Attribute .
+:Attribute/End_Fish_Density :dataType :NumericType .
+:Attribute/End_Fish_Density :name "End Fish Density" .
+
+:Attribute/End_Fish_Density :hasValuesFrom :Domain_End_Fish_Density .
+:Domain_End_Fish_Density rdf:type :Domain .
+:Domain_End_Fish_Density rdf:type :NumericDomain .
+:Domain_End_Fish_Density :numberPrecision :RealPrecision .
+:Domain_End_Fish_Density :lowerBound "0.31" .
+:Domain_End_Fish_Density :upperBound "16.76" .
+:Domain_End_Fish_Density :unit "" .
+
+
+#######  Attribute "Hatchery"
+
+:Attribute/Hatchery rdf:type :Attribute .
+:Attribute/Hatchery :dataType :CategoricType .
+:Attribute/Hatchery :name "Hatchery" .
+
+:Attribute/Hatchery :hasValuesFrom :Domain_Hatchery .
+:Domain_Hatchery rdf:type :Domain .
+:Domain_Hatchery rdf:type :CategoricDomain .
+:CategoricValue_198 rdf:type :CategoricValue .
+:CategoricValue_198 :value "NIREUS" .
+:Domain_Hatchery :enumeration :CategoricValue_198 .
+:CategoricValue_199 rdf:type :CategoricValue .
+:CategoricValue_199 :value "VONITSA" .
+:Domain_Hatchery :enumeration :CategoricValue_199 .
+:CategoricValue_200 rdf:type :CategoricValue .
+:CategoricValue_200 :value "HELENIC" .
+:Domain_Hatchery :enumeration :CategoricValue_200 .
+
+
+#######  Attribute "Lot Quality"
+
+:Attribute/Lot_Quality rdf:type :Attribute .
+:Attribute/Lot_Quality :dataType :CategoricType .
+:Attribute/Lot_Quality :name "Lot Quality" .
+
+:Attribute/Lot_Quality :hasValuesFrom :Domain_Lot_Quality .
+:Domain_Lot_Quality rdf:type :Domain .
+:Domain_Lot_Quality rdf:type :CategoricDomain .
+:CategoricValue_201 rdf:type :CategoricValue .
+:CategoricValue_201 :value "" .
+:Domain_Lot_Quality :enumeration :CategoricValue_201 .
+:CategoricValue_202 rdf:type :CategoricValue .
+:CategoricValue_202 :value ""44-63%14,3"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_202 .
+:CategoricValue_203 rdf:type :CategoricValue .
+:CategoricValue_203 :value ""42-70%23,3"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_203 .
+:CategoricValue_204 rdf:type :CategoricValue .
+:CategoricValue_204 :value ""32-68%20,2"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_204 .
+:CategoricValue_205 rdf:type :CategoricValue .
+:CategoricValue_205 :value ""57-100%24,7"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_205 .
+:CategoricValue_206 rdf:type :CategoricValue .
+:CategoricValue_206 :value ""42-70%23,4"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_206 .
+:CategoricValue_207 rdf:type :CategoricValue .
+:CategoricValue_207 :value ""0-22%21,6"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_207 .
+:CategoricValue_208 rdf:type :CategoricValue .
+:CategoricValue_208 :value ""67-100%13,5"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_208 .
+:CategoricValue_209 rdf:type :CategoricValue .
+:CategoricValue_209 :value ""22-43%15,1"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_209 .
+:CategoricValue_210 rdf:type :CategoricValue .
+:CategoricValue_210 :value ""23-41%20,6"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_210 .
+:CategoricValue_211 rdf:type :CategoricValue .
+:CategoricValue_211 :value ""12-31%19,8"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_211 .
+:CategoricValue_212 rdf:type :CategoricValue .
+:CategoricValue_212 :value ""42-100%17,5"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_212 .
+:CategoricValue_213 rdf:type :CategoricValue .
+:CategoricValue_213 :value ""81-100%18,9"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_213 .
+:CategoricValue_214 rdf:type :CategoricValue .
+:CategoricValue_214 :value ""42-85%15,8"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_214 .
+:CategoricValue_215 rdf:type :CategoricValue .
+:CategoricValue_215 :value ""0-37%16,4"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_215 .
+:CategoricValue_216 rdf:type :CategoricValue .
+:CategoricValue_216 :value ""0-9%21,3"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_216 .
+:CategoricValue_217 rdf:type :CategoricValue .
+:CategoricValue_217 :value "10-29%20" .
+:Domain_Lot_Quality :enumeration :CategoricValue_217 .
+:CategoricValue_218 rdf:type :CategoricValue .
+:CategoricValue_218 :value ""48-70%18,5"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_218 .
+:CategoricValue_219 rdf:type :CategoricValue .
+:CategoricValue_219 :value ""80-100%12,5"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_219 .
+:CategoricValue_220 rdf:type :CategoricValue .
+:CategoricValue_220 :value ""64-85%19,5"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_220 .
+:CategoricValue_221 rdf:type :CategoricValue .
+:CategoricValue_221 :value ""64-85%15,2"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_221 .
+:CategoricValue_222 rdf:type :CategoricValue .
+:CategoricValue_222 :value ""0-58%17,4"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_222 .
+:CategoricValue_223 rdf:type :CategoricValue .
+:CategoricValue_223 :value ""28-86%17,9"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_223 .
+:CategoricValue_224 rdf:type :CategoricValue .
+:CategoricValue_224 :value ""80-100%20,7"" .
+:Domain_Lot_Quality :enumeration :CategoricValue_224 .
+
+
+#######  Attribute "Origin Year"
+
+:Attribute/Origin_Year rdf:type :Attribute .
+:Attribute/Origin_Year :dataType :TemporalType .
+:Attribute/Origin_Year :name "Origin Year" .
+
+:Attribute/Origin_Year :hasValuesFrom :Domain_Origin_Year .
+:Domain_Origin_Year rdf:type :Domain .
+:Domain_Origin_Year rdf:type :TemporalDomain .
+:Domain_Origin_Year :format "yyyy" .
+:Domain_Origin_Year :timePrecision :YearPrecision .
+:Domain_Origin_Year :timeLowerBound "2012-01-01T00:00:00" .
+:Domain_Origin_Year :timeUpperBound "2015-01-01T00:00:00" .
+
+
+#######  Attribute "Origin Month"
+
+:Attribute/Origin_Month rdf:type :Attribute .
+:Attribute/Origin_Month :dataType :CategoricType .
+:Attribute/Origin_Month :name "Origin Month" .
+
+:Attribute/Origin_Month :hasValuesFrom :Domain_Origin_Month .
+:Domain_Origin_Month rdf:type :Domain .
+:Domain_Origin_Month rdf:type :CategoricDomain .
+:CategoricValue_225 rdf:type :CategoricValue .
+:CategoricValue_225 :value "March" .
+:Domain_Origin_Month :enumeration :CategoricValue_225 .
+:CategoricValue_226 rdf:type :CategoricValue .
+:CategoricValue_226 :value "April" .
+:Domain_Origin_Month :enumeration :CategoricValue_226 .
+:CategoricValue_227 rdf:type :CategoricValue .
+:CategoricValue_227 :value "June" .
+:Domain_Origin_Month :enumeration :CategoricValue_227 .
+:CategoricValue_228 rdf:type :CategoricValue .
+:CategoricValue_228 :value "May" .
+:Domain_Origin_Month :enumeration :CategoricValue_228 .
+:CategoricValue_229 rdf:type :CategoricValue .
+:CategoricValue_229 :value "September" .
+:Domain_Origin_Month :enumeration :CategoricValue_229 .
+:CategoricValue_230 rdf:type :CategoricValue .
+:CategoricValue_230 :value "August" .
+:Domain_Origin_Month :enumeration :CategoricValue_230 .
+:CategoricValue_231 rdf:type :CategoricValue .
+:CategoricValue_231 :value "October" .
+:Domain_Origin_Month :enumeration :CategoricValue_231 .
+:CategoricValue_232 rdf:type :CategoricValue .
+:CategoricValue_232 :value "November" .
+:Domain_Origin_Month :enumeration :CategoricValue_232 .
+:CategoricValue_233 rdf:type :CategoricValue .
+:CategoricValue_233 :value "February" .
+:Domain_Origin_Month :enumeration :CategoricValue_233 .
+:CategoricValue_234 rdf:type :CategoricValue .
+:CategoricValue_234 :value "December" .
+:Domain_Origin_Month :enumeration :CategoricValue_234 .
+:CategoricValue_235 rdf:type :CategoricValue .
+:CategoricValue_235 :value "July" .
+:Domain_Origin_Month :enumeration :CategoricValue_235 .
+
+
+#######  Attribute "From"
+
+:Attribute/From rdf:type :Attribute .
+:Attribute/From :dataType :TemporalType .
+:Attribute/From :name "From" .
+
+:Attribute/From :hasValuesFrom :Domain_From .
+:Domain_From rdf:type :Domain .
+:Domain_From rdf:type :TemporalDomain .
+:Domain_From :format "MM/dd/yyyy" .
+:Domain_From :timePrecision :DayPrecision .
+:Domain_From :timeLowerBound "2013-03-08T00:00:00" .
+:Domain_From :timeUpperBound "2015-09-30T00:00:00" .
+
+
+#######  Attribute "To"
+
+:Attribute/To rdf:type :Attribute .
+:Attribute/To :dataType :TemporalType .
+:Attribute/To :name "To" .
+
+:Attribute/To :hasValuesFrom :Domain_To .
+:Domain_To rdf:type :Domain .
+:Domain_To rdf:type :TemporalDomain .
+:Domain_To :format "MM/dd/yyyy" .
+:Domain_To :timePrecision :DayPrecision .
+:Domain_To :timeLowerBound "2013-03-31T00:00:00" .
+:Domain_To :timeUpperBound "2015-10-31T00:00:00" .
+
+
+#######  Attribute "Start Av. Wt."
+
+:Attribute/Start_Av_Wt rdf:type :Attribute .
+:Attribute/Start_Av_Wt :dataType :NumericType .
+:Attribute/Start_Av_Wt :name "Start Av. Wt." .
+
+:Attribute/Start_Av_Wt :hasValuesFrom :Domain_Start_Av_Wt .
+:Domain_Start_Av_Wt rdf:type :Domain .
+:Domain_Start_Av_Wt rdf:type :NumericDomain .
+:Domain_Start_Av_Wt :numberPrecision :RealPrecision .
+:Domain_Start_Av_Wt :lowerBound "2.05" .
+:Domain_Start_Av_Wt :upperBound "397.0" .
+:Domain_Start_Av_Wt :unit "" .
+
+
+#######  Attribute "End Av.Wt."
+
+:Attribute/End_AvWt rdf:type :Attribute .
+:Attribute/End_AvWt :dataType :NumericType .
+:Attribute/End_AvWt :name "End Av.Wt." .
+
+:Attribute/End_AvWt :hasValuesFrom :Domain_End_AvWt .
+:Domain_End_AvWt rdf:type :Domain .
+:Domain_End_AvWt rdf:type :NumericDomain .
+:Domain_End_AvWt :numberPrecision :RealPrecision .
+:Domain_End_AvWt :lowerBound "3.0" .
+:Domain_End_AvWt :upperBound "532.0" .
+:Domain_End_AvWt :unit "" .
+
+
+#######  Attribute "Model End Av. Wt. Act. Feed"
+
+:Attribute/Model_End_Av_Wt_Act_Feed rdf:type :Attribute .
+:Attribute/Model_End_Av_Wt_Act_Feed :dataType :NumericType .
+:Attribute/Model_End_Av_Wt_Act_Feed :name "Model End Av. Wt. Act. Feed" .
+
+:Attribute/Model_End_Av_Wt_Act_Feed :hasValuesFrom :Domain_Model_End_Av_Wt_Act_Feed .
+:Domain_Model_End_Av_Wt_Act_Feed rdf:type :Domain .
+:Domain_Model_End_Av_Wt_Act_Feed rdf:type :NumericDomain .
+:Domain_Model_End_Av_Wt_Act_Feed :numberPrecision :RealPrecision .
+:Domain_Model_End_Av_Wt_Act_Feed :lowerBound "3.08" .
+:Domain_Model_End_Av_Wt_Act_Feed :upperBound "520.8" .
+:Domain_Model_End_Av_Wt_Act_Feed :unit "" .
+
+
+#######  Attribute "Av. Wt. Deviation (%)"
+
+:Attribute/Av_Wt_Deviation_percent rdf:type :Attribute .
+:Attribute/Av_Wt_Deviation_percent :dataType :NumericType .
+:Attribute/Av_Wt_Deviation_percent :name "Av. Wt. Deviation (%)" .
+
+:Attribute/Av_Wt_Deviation_percent :hasValuesFrom :Domain_Av_Wt_Deviation_percent .
+:Domain_Av_Wt_Deviation_percent rdf:type :Domain .
+:Domain_Av_Wt_Deviation_percent rdf:type :NumericDomain .
+:Domain_Av_Wt_Deviation_percent :numberPrecision :RealPrecision .
+:Domain_Av_Wt_Deviation_percent :lowerBound "-20.46" .
+:Domain_Av_Wt_Deviation_percent :upperBound "24.76" .
+:Domain_Av_Wt_Deviation_percent :unit "" .
+
+
+#######  Attribute "Av. Wt. Before Sampl."
+
+:Attribute/Av_Wt_Before_Sampl rdf:type :Attribute .
+:Attribute/Av_Wt_Before_Sampl :dataType :NumericType .
+:Attribute/Av_Wt_Before_Sampl :name "Av. Wt. Before Sampl." .
+
+:Attribute/Av_Wt_Before_Sampl :hasValuesFrom :Domain_Av_Wt_Before_Sampl .
+:Domain_Av_Wt_Before_Sampl rdf:type :Domain .
+:Domain_Av_Wt_Before_Sampl rdf:type :NumericDomain .
+:Domain_Av_Wt_Before_Sampl :numberPrecision :RealPrecision .
+:Domain_Av_Wt_Before_Sampl :lowerBound "3.1" .
+:Domain_Av_Wt_Before_Sampl :upperBound "544.26" .
+:Domain_Av_Wt_Before_Sampl :unit "" .
+
+
+#######  Attribute "Model End Av. Wt. Sugg. Feed"
+
+:Attribute/Model_End_Av_Wt_Sugg_Feed rdf:type :Attribute .
+:Attribute/Model_End_Av_Wt_Sugg_Feed :dataType :NumericType .
+:Attribute/Model_End_Av_Wt_Sugg_Feed :name "Model End Av. Wt. Sugg. Feed" .
+
+:Attribute/Model_End_Av_Wt_Sugg_Feed :hasValuesFrom :Domain_Model_End_Av_Wt_Sugg_Feed .
+:Domain_Model_End_Av_Wt_Sugg_Feed rdf:type :Domain .
+:Domain_Model_End_Av_Wt_Sugg_Feed rdf:type :NumericDomain .
+:Domain_Model_End_Av_Wt_Sugg_Feed :numberPrecision :RealPrecision .
+:Domain_Model_End_Av_Wt_Sugg_Feed :lowerBound "2.97" .
+:Domain_Model_End_Av_Wt_Sugg_Feed :upperBound "541.67" .
+:Domain_Model_End_Av_Wt_Sugg_Feed :unit "" .
+
+
+#######  Attribute "Actual Feed"
+
+:Attribute/Actual_Feed rdf:type :Attribute .
+:Attribute/Actual_Feed :dataType :CategoricType .
+:Attribute/Actual_Feed :name "Actual Feed" .
+
+:Attribute/Actual_Feed :hasValuesFrom :Domain_Actual_Feed .
+:Domain_Actual_Feed rdf:type :Domain .
+:Domain_Actual_Feed rdf:type :CategoricDomain .
+:CategoricValue_236 rdf:type :CategoricValue .
+:CategoricValue_236 :value ""GR IR. POW.1,5"" .
+:Domain_Actual_Feed :enumeration :CategoricValue_236 .
+:CategoricValue_237 rdf:type :CategoricValue .
+:CategoricValue_237 :value "GR IR. POW. 2" .
+:Domain_Actual_Feed :enumeration :CategoricValue_237 .
+:CategoricValue_238 rdf:type :CategoricValue .
+:CategoricValue_238 :value ""GR IR. PLUS 4,5 V"" .
+:Domain_Actual_Feed :enumeration :CategoricValue_238 .
+:CategoricValue_239 rdf:type :CategoricValue .
+:CategoricValue_239 :value "GR IR. PLUS 6 V" .
+:Domain_Actual_Feed :enumeration :CategoricValue_239 .
+:CategoricValue_240 rdf:type :CategoricValue .
+:CategoricValue_240 :value "GR IR. SMART 3" .
+:Domain_Actual_Feed :enumeration :CategoricValue_240 .
+:CategoricValue_241 rdf:type :CategoricValue .
+:CategoricValue_241 :value "GR AGR 03  (6.5 mm)" .
+:Domain_Actual_Feed :enumeration :CategoricValue_241 .
+:CategoricValue_242 rdf:type :CategoricValue .
+:CategoricValue_242 :value "GR AGR 02  (5 mm)" .
+:Domain_Actual_Feed :enumeration :CategoricValue_242 .
+
+
+#######  Attribute "Feed Category"
+
+:Attribute/Feed_Category rdf:type :Attribute .
+:Attribute/Feed_Category :dataType :CategoricType .
+:Attribute/Feed_Category :name "Feed Category" .
+
+:Attribute/Feed_Category :hasValuesFrom :Domain_Feed_Category .
+:Domain_Feed_Category rdf:type :Domain .
+:Domain_Feed_Category rdf:type :CategoricDomain .
+:CategoricValue_243 rdf:type :CategoricValue .
+:CategoricValue_243 :value "POWER" .
+:Domain_Feed_Category :enumeration :CategoricValue_243 .
+:CategoricValue_244 rdf:type :CategoricValue .
+:CategoricValue_244 :value "PLUS" .
+:Domain_Feed_Category :enumeration :CategoricValue_244 .
+:CategoricValue_245 rdf:type :CategoricValue .
+:CategoricValue_245 :value "SMART" .
+:Domain_Feed_Category :enumeration :CategoricValue_245 .
+:CategoricValue_246 rdf:type :CategoricValue .
+:CategoricValue_246 :value "OPTIMA" .
+:Domain_Feed_Category :enumeration :CategoricValue_246 .
+
+
+#######  Attribute "Supplier"
+
+:Attribute/Supplier rdf:type :Attribute .
+:Attribute/Supplier :dataType :CategoricType .
+:Attribute/Supplier :name "Supplier" .
+
+:Attribute/Supplier :hasValuesFrom :Domain_Supplier .
+:Domain_Supplier rdf:type :Domain .
+:Domain_Supplier rdf:type :CategoricDomain .
+:CategoricValue_247 rdf:type :CategoricValue .
+:CategoricValue_247 :value "IRIDA" .
+:Domain_Supplier :enumeration :CategoricValue_247 .
+:CategoricValue_248 rdf:type :CategoricValue .
+:CategoricValue_248 :value "AGROINVEST" .
+:Domain_Supplier :enumeration :CategoricValue_248 .
+
+
+#######  Attribute "Period Feed Qty"
+
+:Attribute/Period_Feed_Qty rdf:type :Attribute .
+:Attribute/Period_Feed_Qty :dataType :NumericType .
+:Attribute/Period_Feed_Qty :name "Period Feed Qty" .
+
+:Attribute/Period_Feed_Qty :hasValuesFrom :Domain_Period_Feed_Qty .
+:Domain_Period_Feed_Qty rdf:type :Domain .
+:Domain_Period_Feed_Qty rdf:type :NumericDomain .
+:Domain_Period_Feed_Qty :numberPrecision :RealPrecision .
+:Domain_Period_Feed_Qty :lowerBound "64.0" .
+:Domain_Period_Feed_Qty :upperBound "99945.0" .
+:Domain_Period_Feed_Qty :unit "" .
+
+
+#######  Attribute "Model Feed Qty"
+
+:Attribute/Model_Feed_Qty rdf:type :Attribute .
+:Attribute/Model_Feed_Qty :dataType :NumericType .
+:Attribute/Model_Feed_Qty :name "Model Feed Qty" .
+
+:Attribute/Model_Feed_Qty :hasValuesFrom :Domain_Model_Feed_Qty .
+:Domain_Model_Feed_Qty rdf:type :Domain .
+:Domain_Model_Feed_Qty rdf:type :NumericDomain .
+:Domain_Model_Feed_Qty :numberPrecision :RealPrecision .
+:Domain_Model_Feed_Qty :lowerBound "101.7657286" .
+:Domain_Model_Feed_Qty :upperBound "110012.2399" .
+:Domain_Model_Feed_Qty :unit "" .
+
+
+#######  Attribute "Feed Deviation (%)"
+
+:Attribute/Feed_Deviation_percent rdf:type :Attribute .
+:Attribute/Feed_Deviation_percent :dataType :NumericType .
+:Attribute/Feed_Deviation_percent :name "Feed Deviation (%)" .
+
+:Attribute/Feed_Deviation_percent :hasValuesFrom :Domain_Feed_Deviation_percent .
+:Domain_Feed_Deviation_percent rdf:type :Domain .
+:Domain_Feed_Deviation_percent rdf:type :NumericDomain .
+:Domain_Feed_Deviation_percent :numberPrecision :RealPrecision .
+:Domain_Feed_Deviation_percent :lowerBound "-41.56" .
+:Domain_Feed_Deviation_percent :upperBound "78.74" .
+:Domain_Feed_Deviation_percent :unit "" .
+
+
+#######  Attribute "Opening Fish No"
+
+:Attribute/Opening_Fish_No rdf:type :Attribute .
+:Attribute/Opening_Fish_No :dataType :NumericType .
+:Attribute/Opening_Fish_No :name "Opening Fish No" .
+
+:Attribute/Opening_Fish_No :hasValuesFrom :Domain_Opening_Fish_No .
+:Domain_Opening_Fish_No rdf:type :Domain .
+:Domain_Opening_Fish_No rdf:type :NumericDomain .
+:Domain_Opening_Fish_No :numberPrecision :IntegerPrecision .
+:Domain_Opening_Fish_No :lowerBound "981.0" .
+:Domain_Opening_Fish_No :upperBound "265590.0" .
+:Domain_Opening_Fish_No :unit "" .
+
+
+#######  Attribute "Opening Biomass"
+
+:Attribute/Opening_Biomass rdf:type :Attribute .
+:Attribute/Opening_Biomass :dataType :NumericType .
+:Attribute/Opening_Biomass :name "Opening Biomass" .
+
+:Attribute/Opening_Biomass :hasValuesFrom :Domain_Opening_Biomass .
+:Domain_Opening_Biomass rdf:type :Domain .
+:Domain_Opening_Biomass rdf:type :NumericDomain .
+:Domain_Opening_Biomass :numberPrecision :RealPrecision .
+:Domain_Opening_Biomass :lowerBound "13.2435" .
+:Domain_Opening_Biomass :upperBound "100851.525" .
+:Domain_Opening_Biomass :unit "" .
+
+
+#######  Attribute "Closing Fish No"
+
+:Attribute/Closing_Fish_No rdf:type :Attribute .
+:Attribute/Closing_Fish_No :dataType :NumericType .
+:Attribute/Closing_Fish_No :name "Closing Fish No" .
+
+:Attribute/Closing_Fish_No :hasValuesFrom :Domain_Closing_Fish_No .
+:Domain_Closing_Fish_No rdf:type :Domain .
+:Domain_Closing_Fish_No rdf:type :NumericDomain .
+:Domain_Closing_Fish_No :numberPrecision :IntegerPrecision .
+:Domain_Closing_Fish_No :lowerBound "0.0" .
+:Domain_Closing_Fish_No :upperBound "260402.0" .
+:Domain_Closing_Fish_No :unit "" .
+
+
+#######  Attribute "Closing Biomass"
+
+:Attribute/Closing_Biomass rdf:type :Attribute .
+:Attribute/Closing_Biomass :dataType :NumericType .
+:Attribute/Closing_Biomass :name "Closing Biomass" .
+
+:Attribute/Closing_Biomass :hasValuesFrom :Domain_Closing_Biomass .
+:Domain_Closing_Biomass rdf:type :Domain .
+:Domain_Closing_Biomass rdf:type :NumericDomain .
+:Domain_Closing_Biomass :numberPrecision :RealPrecision .
+:Domain_Closing_Biomass :lowerBound "0.0" .
+:Domain_Closing_Biomass :upperBound "109998.68" .
+:Domain_Closing_Biomass :unit "" .
+
+
+#######  Attribute "Harvest Biomass"
+
+:Attribute/Harvest_Biomass rdf:type :Attribute .
+:Attribute/Harvest_Biomass :dataType :NumericType .
+:Attribute/Harvest_Biomass :name "Harvest Biomass" .
+
+:Attribute/Harvest_Biomass :hasValuesFrom :Domain_Harvest_Biomass .
+:Domain_Harvest_Biomass rdf:type :Domain .
+:Domain_Harvest_Biomass rdf:type :NumericDomain .
+:Domain_Harvest_Biomass :numberPrecision :RealPrecision .
+:Domain_Harvest_Biomass :lowerBound "0.0" .
+:Domain_Harvest_Biomass :upperBound "9620.68177" .
+:Domain_Harvest_Biomass :unit "" .
+
+
+#######  Attribute "Transfer - (Kg)"
+
+:Attribute/Transfer_minus_Kg rdf:type :Attribute .
+:Attribute/Transfer_minus_Kg :dataType :NumericType .
+:Attribute/Transfer_minus_Kg :name "Transfer - (Kg)" .
+
+:Attribute/Transfer_minus_Kg :hasValuesFrom :Domain_Transfer_minus_Kg .
+:Domain_Transfer_minus_Kg rdf:type :Domain .
+:Domain_Transfer_minus_Kg rdf:type :NumericDomain .
+:Domain_Transfer_minus_Kg :numberPrecision :RealPrecision .
+:Domain_Transfer_minus_Kg :lowerBound "0.0" .
+:Domain_Transfer_minus_Kg :upperBound "15839.51" .
+:Domain_Transfer_minus_Kg :unit "" .
+
+
+#######  Attribute "Transfer + (Kg)"
+
+:Attribute/Transfer_plus_Kg rdf:type :Attribute .
+:Attribute/Transfer_plus_Kg :dataType :NumericType .
+:Attribute/Transfer_plus_Kg :name "Transfer + (Kg)" .
+
+:Attribute/Transfer_plus_Kg :hasValuesFrom :Domain_Transfer_plus_Kg .
+:Domain_Transfer_plus_Kg rdf:type :Domain .
+:Domain_Transfer_plus_Kg rdf:type :NumericDomain .
+:Domain_Transfer_plus_Kg :numberPrecision :RealPrecision .
+:Domain_Transfer_plus_Kg :lowerBound "0.0" .
+:Domain_Transfer_plus_Kg :upperBound "7507.67846" .
+:Domain_Transfer_plus_Kg :unit "" .
+
+
+#######  Attribute "Biomass Produced"
+
+:Attribute/Biomass_Produced rdf:type :Attribute .
+:Attribute/Biomass_Produced :dataType :NumericType .
+:Attribute/Biomass_Produced :name "Biomass Produced" .
+
+:Attribute/Biomass_Produced :hasValuesFrom :Domain_Biomass_Produced .
+:Domain_Biomass_Produced rdf:type :Domain .
+:Domain_Biomass_Produced rdf:type :NumericDomain .
+:Domain_Biomass_Produced :numberPrecision :RealPrecision .
+:Domain_Biomass_Produced :lowerBound "20.8017" .
+:Domain_Biomass_Produced :upperBound "48489.7315" .
+:Domain_Biomass_Produced :unit "" .
+
+
+#######  Attribute "Biomass Produced Before Sampl."
+
+:Attribute/Biomass_Produced_Before_Sampl rdf:type :Attribute .
+:Attribute/Biomass_Produced_Before_Sampl :dataType :NumericType .
+:Attribute/Biomass_Produced_Before_Sampl :name "Biomass Produced Before Sampl." .
+
+:Attribute/Biomass_Produced_Before_Sampl :hasValuesFrom :Domain_Biomass_Produced_Before_Sampl .
+:Domain_Biomass_Produced_Before_Sampl rdf:type :Domain .
+:Domain_Biomass_Produced_Before_Sampl rdf:type :NumericDomain .
+:Domain_Biomass_Produced_Before_Sampl :numberPrecision :RealPrecision .
+:Domain_Biomass_Produced_Before_Sampl :lowerBound "-4.15845" .
+:Domain_Biomass_Produced_Before_Sampl :upperBound "52018.1786" .
+:Domain_Biomass_Produced_Before_Sampl :unit "" .
+
+
+#######  Attribute "Econ. FCR Period"
+
+:Attribute/Econ_FCR_Period rdf:type :Attribute .
+:Attribute/Econ_FCR_Period :dataType :NumericType .
+:Attribute/Econ_FCR_Period :name "Econ. FCR Period" .
+
+:Attribute/Econ_FCR_Period :hasValuesFrom :Domain_Econ_FCR_Period .
+:Domain_Econ_FCR_Period rdf:type :Domain .
+:Domain_Econ_FCR_Period rdf:type :NumericDomain .
+:Domain_Econ_FCR_Period :numberPrecision :RealPrecision .
+:Domain_Econ_FCR_Period :lowerBound "0.492695441" .
+:Domain_Econ_FCR_Period :upperBound "6.790478577" .
+:Domain_Econ_FCR_Period :unit "" .
+
+
+#######  Attribute "Econ FCR Period Before Sampl."
+
+:Attribute/Econ_FCR_Period_Before_Sampl rdf:type :Attribute .
+:Attribute/Econ_FCR_Period_Before_Sampl :dataType :NumericType .
+:Attribute/Econ_FCR_Period_Before_Sampl :name "Econ FCR Period Before Sampl." .
+
+:Attribute/Econ_FCR_Period_Before_Sampl :hasValuesFrom :Domain_Econ_FCR_Period_Before_Sampl .
+:Domain_Econ_FCR_Period_Before_Sampl rdf:type :Domain .
+:Domain_Econ_FCR_Period_Before_Sampl rdf:type :NumericDomain .
+:Domain_Econ_FCR_Period_Before_Sampl :numberPrecision :RealPrecision .
+:Domain_Econ_FCR_Period_Before_Sampl :lowerBound "-354.8915668" .
+:Domain_Econ_FCR_Period_Before_Sampl :upperBound "23.74190907" .
+:Domain_Econ_FCR_Period_Before_Sampl :unit "" .
+
+
+#######  Attribute "Mortality No"
+
+:Attribute/Mortality_No rdf:type :Attribute .
+:Attribute/Mortality_No :dataType :NumericType .
+:Attribute/Mortality_No :name "Mortality No" .
+
+:Attribute/Mortality_No :hasValuesFrom :Domain_Mortality_No .
+:Domain_Mortality_No rdf:type :Domain .
+:Domain_Mortality_No rdf:type :NumericDomain .
+:Domain_Mortality_No :numberPrecision :IntegerPrecision .
+:Domain_Mortality_No :lowerBound "50.0" .
+:Domain_Mortality_No :upperBound "45535.0" .
+:Domain_Mortality_No :unit "" .
+
+
+#######  Attribute "Model Mortality No"
+
+:Attribute/Model_Mortality_No rdf:type :Attribute .
+:Attribute/Model_Mortality_No :dataType :NumericType .
+:Attribute/Model_Mortality_No :name "Model Mortality No" .
+
+:Attribute/Model_Mortality_No :hasValuesFrom :Domain_Model_Mortality_No .
+:Domain_Model_Mortality_No rdf:type :Domain .
+:Domain_Model_Mortality_No rdf:type :NumericDomain .
+:Domain_Model_Mortality_No :numberPrecision :IntegerPrecision .
+:Domain_Model_Mortality_No :lowerBound "0.0" .
+:Domain_Model_Mortality_No :upperBound "7943.0" .
+:Domain_Model_Mortality_No :unit "" .
+
+
+#######  Attribute "Mortality Deviation (%)"
+
+:Attribute/Mortality_Deviation_percent rdf:type :Attribute .
+:Attribute/Mortality_Deviation_percent :dataType :NumericType .
+:Attribute/Mortality_Deviation_percent :name "Mortality Deviation (%)" .
+
+:Attribute/Mortality_Deviation_percent :hasValuesFrom :Domain_Mortality_Deviation_percent .
+:Domain_Mortality_Deviation_percent rdf:type :Domain .
+:Domain_Mortality_Deviation_percent rdf:type :NumericDomain .
+:Domain_Mortality_Deviation_percent :numberPrecision :RealPrecision .
+:Domain_Mortality_Deviation_percent :lowerBound "-632.66" .
+:Domain_Mortality_Deviation_percent :upperBound "66.5" .
+:Domain_Mortality_Deviation_percent :unit "" .
+
+
+#######  Attribute "SFR Period (%)"
+
+:Attribute/SFR_Period_percent rdf:type :Attribute .
+:Attribute/SFR_Period_percent :dataType :NumericType .
+:Attribute/SFR_Period_percent :name "SFR Period (%)" .
+
+:Attribute/SFR_Period_percent :hasValuesFrom :Domain_SFR_Period_percent .
+:Domain_SFR_Period_percent rdf:type :Domain .
+:Domain_SFR_Period_percent rdf:type :NumericDomain .
+:Domain_SFR_Period_percent :numberPrecision :RealPrecision .
+:Domain_SFR_Period_percent :lowerBound "0.0" .
+:Domain_SFR_Period_percent :upperBound "5.68" .
+:Domain_SFR_Period_percent :unit "" .
+
+
+#######  Attribute "SFR Period (%) Before Sampl."
+
+:Attribute/SFR_Period_percent_Before_Sampl rdf:type :Attribute .
+:Attribute/SFR_Period_percent_Before_Sampl :dataType :NumericType .
+:Attribute/SFR_Period_percent_Before_Sampl :name "SFR Period (%) Before Sampl." .
+
+:Attribute/SFR_Period_percent_Before_Sampl :hasValuesFrom :Domain_SFR_Period_percent_Before_Sampl .
+:Domain_SFR_Period_percent_Before_Sampl rdf:type :Domain .
+:Domain_SFR_Period_percent_Before_Sampl rdf:type :NumericDomain .
+:Domain_SFR_Period_percent_Before_Sampl :numberPrecision :RealPrecision .
+:Domain_SFR_Period_percent_Before_Sampl :lowerBound "-0.22" .
+:Domain_SFR_Period_percent_Before_Sampl :upperBound "6.08" .
+:Domain_SFR_Period_percent_Before_Sampl :unit "" .
+
+
+#######  Attribute "SGR Period (%)"
+
+:Attribute/SGR_Period_percent rdf:type :Attribute .
+:Attribute/SGR_Period_percent :dataType :NumericType .
+:Attribute/SGR_Period_percent :name "SGR Period (%)" .
+
+:Attribute/SGR_Period_percent :hasValuesFrom :Domain_SGR_Period_percent .
+:Domain_SGR_Period_percent rdf:type :Domain .
+:Domain_SGR_Period_percent rdf:type :NumericDomain .
+:Domain_SGR_Period_percent :numberPrecision :RealPrecision .
+:Domain_SGR_Period_percent :lowerBound "0.11" .
+:Domain_SGR_Period_percent :upperBound "5.34" .
+:Domain_SGR_Period_percent :unit "" .
+
+
+#######  Attribute "Max Feed Qty"
+
+:Attribute/Max_Feed_Qty rdf:type :Attribute .
+:Attribute/Max_Feed_Qty :dataType :NumericType .
+:Attribute/Max_Feed_Qty :name "Max Feed Qty" .
+
+:Attribute/Max_Feed_Qty :hasValuesFrom :Domain_Max_Feed_Qty .
+:Domain_Max_Feed_Qty rdf:type :Domain .
+:Domain_Max_Feed_Qty rdf:type :NumericDomain .
+:Domain_Max_Feed_Qty :numberPrecision :RealPrecision .
+:Domain_Max_Feed_Qty :lowerBound "64.0" .
+:Domain_Max_Feed_Qty :upperBound "74682.5" .
+:Domain_Max_Feed_Qty :unit "" .
+
+
+#######  Attribute "Food Price"
+
+:Attribute/Food_Price rdf:type :Attribute .
+:Attribute/Food_Price :dataType :NumericType .
+:Attribute/Food_Price :name "Food Price" .
+
+:Attribute/Food_Price :hasValuesFrom :Domain_Food_Price .
+:Domain_Food_Price rdf:type :Domain .
+:Domain_Food_Price rdf:type :NumericDomain .
+:Domain_Food_Price :numberPrecision :RealPrecision .
+:Domain_Food_Price :lowerBound "1.11" .
+:Domain_Food_Price :upperBound "2.022" .
+:Domain_Food_Price :unit "" .
+
+
+#######  Attribute "Current Grading"
+
+:Attribute/Current_Grading rdf:type :Attribute .
+:Attribute/Current_Grading :dataType :CategoricType .
+:Attribute/Current_Grading :name "Current Grading" .
+
+:Attribute/Current_Grading :hasValuesFrom :Domain_Current_Grading .
+:Domain_Current_Grading rdf:type :Domain .
+:Domain_Current_Grading rdf:type :CategoricDomain .
+:CategoricValue_249 rdf:type :CategoricValue .
+:CategoricValue_249 :value "" .
+:Domain_Current_Grading :enumeration :CategoricValue_249 .
+:CategoricValue_250 rdf:type :CategoricValue .
+:CategoricValue_250 :value "SMALL" .
+:Domain_Current_Grading :enumeration :CategoricValue_250 .
+:CategoricValue_251 rdf:type :CategoricValue .
+:CategoricValue_251 :value "BIG" .
+:Domain_Current_Grading :enumeration :CategoricValue_251 .
+
+
+#######  Attribute "Feeding Policy"
+
+:Attribute/Feeding_Policy rdf:type :Attribute .
+:Attribute/Feeding_Policy :dataType :CategoricType .
+:Attribute/Feeding_Policy :name "Feeding Policy" .
+
+:Attribute/Feeding_Policy :hasValuesFrom :Domain_Feeding_Policy .
+:Domain_Feeding_Policy rdf:type :Domain .
+:Domain_Feeding_Policy rdf:type :CategoricDomain .
+:CategoricValue_252 rdf:type :CategoricValue .
+:CategoricValue_252 :value "GR BASS SMOOTHLY" .
+:Domain_Feeding_Policy :enumeration :CategoricValue_252 .
+:CategoricValue_253 rdf:type :CategoricValue .
+:CategoricValue_253 :value "BASS GROWTH MODEL 1-6-15-SMOOTHLY-PROTOTYPE P.K. ALL" .
+:Domain_Feeding_Policy :enumeration :CategoricValue_253 .
+
+
+#######  Attribute "Group Tag"
+
+:Attribute/Group_Tag rdf:type :Attribute .
+:Attribute/Group_Tag :dataType :CategoricType .
+:Attribute/Group_Tag :name "Group Tag" .
+
+:Attribute/Group_Tag :hasValuesFrom :Domain_Group_Tag .
+:Domain_Group_Tag rdf:type :Domain .
+:Domain_Group_Tag rdf:type :CategoricDomain .
+:CategoricValue_254 rdf:type :CategoricValue .
+:CategoricValue_254 :value "AKK01\BAS01032013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_254 .
+:CategoricValue_255 rdf:type :CategoricValue .
+:CategoricValue_255 :value "" .
+:Domain_Group_Tag :enumeration :CategoricValue_255 .
+:CategoricValue_256 rdf:type :CategoricValue .
+:CategoricValue_256 :value "AKS07\BAS01062013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_256 .
+:CategoricValue_257 rdf:type :CategoricValue .
+:CategoricValue_257 :value "AKZ07\BAS01062013NIRx" .
+:Domain_Group_Tag :enumeration :CategoricValue_257 .
+:CategoricValue_258 rdf:type :CategoricValue .
+:CategoricValue_258 :value "AKZ02\BAS02032013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_258 .
+:CategoricValue_259 rdf:type :CategoricValue .
+:CategoricValue_259 :value "PEZ04\BAS05092013VMLGE" .
+:Domain_Group_Tag :enumeration :CategoricValue_259 .
+:CategoricValue_260 rdf:type :CategoricValue .
+:CategoricValue_260 :value "PEA03\BAS09042013NIRA" .
+:Domain_Group_Tag :enumeration :CategoricValue_260 .
+:CategoricValue_261 rdf:type :CategoricValue .
+:CategoricValue_261 :value "PEA06\BAS09042013NIRV" .
+:Domain_Group_Tag :enumeration :CategoricValue_261 .
+:CategoricValue_262 rdf:type :CategoricValue .
+:CategoricValue_262 :value "PEA14\BAS11042013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_262 .
+:CategoricValue_263 rdf:type :CategoricValue .
+:CategoricValue_263 :value "PEA01\BAS11062013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_263 .
+:CategoricValue_264 rdf:type :CategoricValue .
+:CategoricValue_264 :value "PEA10\BAS18072013VON" .
+:Domain_Group_Tag :enumeration :CategoricValue_264 .
+:CategoricValue_265 rdf:type :CategoricValue .
+:CategoricValue_265 :value "PEA11\BAS19062013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_265 .
+:CategoricValue_266 rdf:type :CategoricValue .
+:CategoricValue_266 :value "AKS04\BAS22052013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_266 .
+:CategoricValue_267 rdf:type :CategoricValue .
+:CategoricValue_267 :value "AKS09\BAS22052013NIRx" .
+:Domain_Group_Tag :enumeration :CategoricValue_267 .
+:CategoricValue_268 rdf:type :CategoricValue .
+:CategoricValue_268 :value "PEA04\BAS27082013VMLEN" .
+:Domain_Group_Tag :enumeration :CategoricValue_268 .
+:CategoricValue_269 rdf:type :CategoricValue .
+:CategoricValue_269 :value "PEA05\BAS29042013NIR" .
+:Domain_Group_Tag :enumeration :CategoricValue_269 .
+:CategoricValue_270 rdf:type :CategoricValue .
+:CategoricValue_270 :value "PEA13\BAS31072013VON" .
+:Domain_Group_Tag :enumeration :CategoricValue_270 .
+:CategoricValue_271 rdf:type :CategoricValue .
+:CategoricValue_271 :value "PEZ03\BAS31072013VONx" .
+:Domain_Group_Tag :enumeration :CategoricValue_271 .
+:CategoricValue_272 rdf:type :CategoricValue .
+:CategoricValue_272 :value "PEV05\L1/12/12A-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_272 .
+:CategoricValue_273 rdf:type :CategoricValue .
+:CategoricValue_273 :value "PEV15\L1/12/12B-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_273 .
+:CategoricValue_274 rdf:type :CategoricValue .
+:CategoricValue_274 :value "PEA08\L10/4/12A-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_274 .
+:CategoricValue_275 rdf:type :CategoricValue .
+:CategoricValue_275 :value "PEG04\L10/4/12B-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_275 .
+:CategoricValue_276 rdf:type :CategoricValue .
+:CategoricValue_276 :value "PEG03\L10/5/12-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_276 .
+:CategoricValue_277 rdf:type :CategoricValue .
+:CategoricValue_277 :value "PEV03\L12/6/12A-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_277 .
+:CategoricValue_278 rdf:type :CategoricValue .
+:CategoricValue_278 :value "PEV12\L12/6/12B-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_278 .
+:CategoricValue_279 rdf:type :CategoricValue .
+:CategoricValue_279 :value "PEV07\L16/6/12A-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_279 .
+:CategoricValue_280 rdf:type :CategoricValue .
+:CategoricValue_280 :value "PEV04\L16/6/12B-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_280 .
+:CategoricValue_281 rdf:type :CategoricValue .
+:CategoricValue_281 :value "PEG17\L17/8/12A-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_281 .
+:CategoricValue_282 rdf:type :CategoricValue .
+:CategoricValue_282 :value "PEV16\L23/11/12-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_282 .
+:CategoricValue_283 rdf:type :CategoricValue .
+:CategoricValue_283 :value "PEV06\L25/6/12A" .
+:Domain_Group_Tag :enumeration :CategoricValue_283 .
+:CategoricValue_284 rdf:type :CategoricValue .
+:CategoricValue_284 :value "PEG14\L25/6/12B" .
+:Domain_Group_Tag :enumeration :CategoricValue_284 .
+:CategoricValue_285 rdf:type :CategoricValue .
+:CategoricValue_285 :value "PEA02\L29/3/12-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_285 .
+:CategoricValue_286 rdf:type :CategoricValue .
+:CategoricValue_286 :value "PEG15\L29/3/12-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_286 .
+:CategoricValue_287 rdf:type :CategoricValue .
+:CategoricValue_287 :value "PEG16\L29/3/12-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_287 .
+:CategoricValue_288 rdf:type :CategoricValue .
+:CategoricValue_288 :value "PEA12\L29/3/12-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_288 .
+:CategoricValue_289 rdf:type :CategoricValue .
+:CategoricValue_289 :value "AKS01\L5/7/12-HEL" .
+:Domain_Group_Tag :enumeration :CategoricValue_289 .
+:CategoricValue_290 rdf:type :CategoricValue .
+:CategoricValue_290 :value "AKS02\L6/7/12-VER" .
+:Domain_Group_Tag :enumeration :CategoricValue_290 .
+:CategoricValue_291 rdf:type :CategoricValue .
+:CategoricValue_291 :value "PEV13\L8/11/12A-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_291 .
+:CategoricValue_292 rdf:type :CategoricValue .
+:CategoricValue_292 :value "PEV14\L8/11/12B-NHR" .
+:Domain_Group_Tag :enumeration :CategoricValue_292 .
+
+
+#######  Attribute "Vaccinated"
+
+:Attribute/Vaccinated rdf:type :Attribute .
+:Attribute/Vaccinated :dataType :CategoricType .
+:Attribute/Vaccinated :name "Vaccinated" .
+
+:Attribute/Vaccinated :hasValuesFrom :Domain_Vaccinated .
+:Domain_Vaccinated rdf:type :Domain .
+:Domain_Vaccinated rdf:type :CategoricDomain .
+:CategoricValue_293 rdf:type :CategoricValue .
+:CategoricValue_293 :value "Unchecked" .
+:Domain_Vaccinated :enumeration :CategoricValue_293 .
+
+
+#######  Attribute "Feeder"
+
+:Attribute/Feeder rdf:type :Attribute .
+:Attribute/Feeder :dataType :CategoricType .
+:Attribute/Feeder :name "Feeder" .
+
+:Attribute/Feeder :hasValuesFrom :Domain_Feeder .
+:Domain_Feeder rdf:type :Domain .
+:Domain_Feeder rdf:type :CategoricDomain .
+:CategoricValue_294 rdf:type :CategoricValue .
+:CategoricValue_294 :value "" .
+:Domain_Feeder :enumeration :CategoricValue_294 .
+
+
+#######  Attribute "Feeding Rate (Kg / Hour)"
+
+:Attribute/Feeding_Rate_Kg__Hour rdf:type :Attribute .
+:Attribute/Feeding_Rate_Kg__Hour :dataType :NumericType .
+:Attribute/Feeding_Rate_Kg__Hour :name "Feeding Rate (Kg / Hour)" .
+
+:Attribute/Feeding_Rate_Kg__Hour :hasValuesFrom :Domain_Feeding_Rate_Kg__Hour .
+:Domain_Feeding_Rate_Kg__Hour rdf:type :Domain .
+:Domain_Feeding_Rate_Kg__Hour rdf:type :NumericDomain .
+:Domain_Feeding_Rate_Kg__Hour :numberPrecision :RealPrecision .
+:Domain_Feeding_Rate_Kg__Hour :lowerBound "0.0" .
+:Domain_Feeding_Rate_Kg__Hour :upperBound "0.0" .
+:Domain_Feeding_Rate_Kg__Hour :unit "" .
+
+
+#######  Attribute "Fastings No"
+
+:Attribute/Fastings_No rdf:type :Attribute .
+:Attribute/Fastings_No :dataType :NumericType .
+:Attribute/Fastings_No :name "Fastings No" .
+
+:Attribute/Fastings_No :hasValuesFrom :Domain_Fastings_No .
+:Domain_Fastings_No rdf:type :Domain .
+:Domain_Fastings_No rdf:type :NumericDomain .
+:Domain_Fastings_No :numberPrecision :IntegerPrecision .
+:Domain_Fastings_No :lowerBound "0.0" .
+:Domain_Fastings_No :upperBound "54.0" .
+:Domain_Fastings_No :unit "" .
+
+
+#######  Attribute "Avg. Temp."
+
+:Attribute/Avg_Temp rdf:type :Attribute .
+:Attribute/Avg_Temp :dataType :NumericType .
+:Attribute/Avg_Temp :name "Avg. Temp." .
+
+:Attribute/Avg_Temp :hasValuesFrom :Domain_Avg_Temp .
+:Domain_Avg_Temp rdf:type :Domain .
+:Domain_Avg_Temp rdf:type :NumericDomain .
+:Domain_Avg_Temp :numberPrecision :RealPrecision .
+:Domain_Avg_Temp :lowerBound "11.93" .
+:Domain_Avg_Temp :upperBound "26.77" .
+:Domain_Avg_Temp :unit "" .
+
+
+#######  Attribute "Avg. Oxygene"
+
+:Attribute/Avg_Oxygene rdf:type :Attribute .
+:Attribute/Avg_Oxygene :dataType :NumericType .
+:Attribute/Avg_Oxygene :name "Avg. Oxygene" .
+
+:Attribute/Avg_Oxygene :hasValuesFrom :Domain_Avg_Oxygene .
+:Domain_Avg_Oxygene rdf:type :Domain .
+:Domain_Avg_Oxygene rdf:type :NumericDomain .
+:Domain_Avg_Oxygene :numberPrecision :RealPrecision .
+:Domain_Avg_Oxygene :lowerBound "0.0" .
+:Domain_Avg_Oxygene :upperBound "0.0" .
+:Domain_Avg_Oxygene :unit "" .
+
+
+#######  Attribute "Transfer - (No)"
+
+:Attribute/Transfer_minus_No rdf:type :Attribute .
+:Attribute/Transfer_minus_No :dataType :NumericType .
+:Attribute/Transfer_minus_No :name "Transfer - (No)" .
+
+:Attribute/Transfer_minus_No :hasValuesFrom :Domain_Transfer_minus_No .
+:Domain_Transfer_minus_No rdf:type :Domain .
+:Domain_Transfer_minus_No rdf:type :NumericDomain .
+:Domain_Transfer_minus_No :numberPrecision :IntegerPrecision .
+:Domain_Transfer_minus_No :lowerBound "0.0" .
+:Domain_Transfer_minus_No :upperBound "2.0" .
+:Domain_Transfer_minus_No :unit "" .
+
+
+#######  Attribute "Transfer + (No)"
+
+:Attribute/Transfer_plus_No rdf:type :Attribute .
+:Attribute/Transfer_plus_No :dataType :NumericType .
+:Attribute/Transfer_plus_No :name "Transfer + (No)" .
+
+:Attribute/Transfer_plus_No :hasValuesFrom :Domain_Transfer_plus_No .
+:Domain_Transfer_plus_No rdf:type :Domain .
+:Domain_Transfer_plus_No rdf:type :NumericDomain .
+:Domain_Transfer_plus_No :numberPrecision :IntegerPrecision .
+:Domain_Transfer_plus_No :lowerBound "0.0" .
+:Domain_Transfer_plus_No :upperBound "5.0" .
+:Domain_Transfer_plus_No :unit "" .
+
+
+#######  Attribute "Harvest (No)"
+
+:Attribute/Harvest_No rdf:type :Attribute .
+:Attribute/Harvest_No :dataType :NumericType .
+:Attribute/Harvest_No :name "Harvest (No)" .
+
+:Attribute/Harvest_No :hasValuesFrom :Domain_Harvest_No .
+:Domain_Harvest_No rdf:type :Domain .
+:Domain_Harvest_No rdf:type :NumericDomain .
+:Domain_Harvest_No :numberPrecision :IntegerPrecision .
+:Domain_Harvest_No :lowerBound "0.0" .
+:Domain_Harvest_No :upperBound "3.0" .
+:Domain_Harvest_No :unit "" .
+
+
+#######  Attribute "Sampling (No)"
+
+:Attribute/Sampling_No rdf:type :Attribute .
+:Attribute/Sampling_No :dataType :NumericType .
+:Attribute/Sampling_No :name "Sampling (No)" .
+
+:Attribute/Sampling_No :hasValuesFrom :Domain_Sampling_No .
+:Domain_Sampling_No rdf:type :Domain .
+:Domain_Sampling_No rdf:type :NumericDomain .
+:Domain_Sampling_No :numberPrecision :IntegerPrecision .
+:Domain_Sampling_No :lowerBound "1.0" .
+:Domain_Sampling_No :upperBound "2.0" .
+:Domain_Sampling_No :unit "" .
+
+
+#######  Attribute "LTD Mortality No"
+
+:Attribute/LTD_Mortality_No rdf:type :Attribute .
+:Attribute/LTD_Mortality_No :dataType :NumericType .
+:Attribute/LTD_Mortality_No :name "LTD Mortality No" .
+
+:Attribute/LTD_Mortality_No :hasValuesFrom :Domain_LTD_Mortality_No .
+:Domain_LTD_Mortality_No rdf:type :Domain .
+:Domain_LTD_Mortality_No rdf:type :NumericDomain .
+:Domain_LTD_Mortality_No :numberPrecision :IntegerPrecision .
+:Domain_LTD_Mortality_No :lowerBound "335.0" .
+:Domain_LTD_Mortality_No :upperBound "95545.76" .
+:Domain_LTD_Mortality_No :unit "" .
+
+
+#######  Attribute "LTD Mortality %"
+
+:Attribute/LTD_Mortality_percent rdf:type :Attribute .
+:Attribute/LTD_Mortality_percent :dataType :NumericType .
+:Attribute/LTD_Mortality_percent :name "LTD Mortality %" .
+
+:Attribute/LTD_Mortality_percent :hasValuesFrom :Domain_LTD_Mortality_percent .
+:Domain_LTD_Mortality_percent rdf:type :Domain .
+:Domain_LTD_Mortality_percent rdf:type :NumericDomain .
+:Domain_LTD_Mortality_percent :numberPrecision :RealPrecision .
+:Domain_LTD_Mortality_percent :lowerBound "0.304545455" .
+:Domain_LTD_Mortality_percent :upperBound "56.79395006" .
+:Domain_LTD_Mortality_percent :unit "" .
+
+
+#######  Attribute "LTD Econ. FCR"
+
+:Attribute/LTD_Econ_FCR rdf:type :Attribute .
+:Attribute/LTD_Econ_FCR :dataType :NumericType .
+:Attribute/LTD_Econ_FCR :name "LTD Econ. FCR" .
+
+:Attribute/LTD_Econ_FCR :hasValuesFrom :Domain_LTD_Econ_FCR .
+:Domain_LTD_Econ_FCR rdf:type :Domain .
+:Domain_LTD_Econ_FCR rdf:type :NumericDomain .
+:Domain_LTD_Econ_FCR :numberPrecision :RealPrecision .
+:Domain_LTD_Econ_FCR :lowerBound "1.057158521" .
+:Domain_LTD_Econ_FCR :upperBound "50.95621982" .
+:Domain_LTD_Econ_FCR :unit "" .
+
+
+#######  Attribute ""
+
+:Attribute/ rdf:type :Attribute .
+:Attribute/ :dataType :CategoricType .
+:Attribute/ :name "" .
+
+:Attribute/ :hasValuesFrom :Domain_ .
+:Domain_ rdf:type :Domain .
+:Domain_ rdf:type :CategoricDomain .
+:CategoricValue_295 rdf:type :CategoricValue .
+:CategoricValue_295 :value "" .
+:Domain_ :enumeration :CategoricValue_295 .
+
+
+#######  Attribute "Period Day Degrees"
+
+:Attribute/Period_Day_Degrees rdf:type :Attribute .
+:Attribute/Period_Day_Degrees :dataType :NumericType .
+:Attribute/Period_Day_Degrees :name "Period Day Degrees" .
+
+:Attribute/Period_Day_Degrees :hasValuesFrom :Domain_Period_Day_Degrees .
+:Domain_Period_Day_Degrees rdf:type :Domain .
+:Domain_Period_Day_Degrees rdf:type :NumericDomain .
+:Domain_Period_Day_Degrees :numberPrecision :IntegerPrecision .
+:Domain_Period_Day_Degrees :lowerBound "20.0" .
+:Domain_Period_Day_Degrees :upperBound "7864.0" .
+:Domain_Period_Day_Degrees :unit "" .
+
+
+#######  Attribute "Start Av. Weight Category"
+
+:Attribute/Start_Av_Weight_Category rdf:type :Attribute .
+:Attribute/Start_Av_Weight_Category :dataType :CategoricType .
+:Attribute/Start_Av_Weight_Category :name "Start Av. Weight Category" .
+
+:Attribute/Start_Av_Weight_Category :hasValuesFrom :Domain_Start_Av_Weight_Category .
+:Domain_Start_Av_Weight_Category rdf:type :Domain .
+:Domain_Start_Av_Weight_Category rdf:type :CategoricDomain .
+:CategoricValue_296 rdf:type :CategoricValue .
+:CategoricValue_296 :value "A 1-300" .
+:Domain_Start_Av_Weight_Category :enumeration :CategoricValue_296 .
+:CategoricValue_297 rdf:type :CategoricValue .
+:CategoricValue_297 :value "C 365-600" .
+:Domain_Start_Av_Weight_Category :enumeration :CategoricValue_297 .
+:CategoricValue_298 rdf:type :CategoricValue .
+:CategoricValue_298 :value "B 300-365" .
+:Domain_Start_Av_Weight_Category :enumeration :CategoricValue_298 .
+
+
+#######  Attribute "End Av. Weight Category"
+
+:Attribute/End_Av_Weight_Category rdf:type :Attribute .
+:Attribute/End_Av_Weight_Category :dataType :CategoricType .
+:Attribute/End_Av_Weight_Category :name "End Av. Weight Category" .
+
+:Attribute/End_Av_Weight_Category :hasValuesFrom :Domain_End_Av_Weight_Category .
+:Domain_End_Av_Weight_Category rdf:type :Domain .
+:Domain_End_Av_Weight_Category rdf:type :CategoricDomain .
+:CategoricValue_299 rdf:type :CategoricValue .
+:CategoricValue_299 :value "A 1-300" .
+:Domain_End_Av_Weight_Category :enumeration :CategoricValue_299 .
+:CategoricValue_300 rdf:type :CategoricValue .
+:CategoricValue_300 :value "C 365-600" .
+:Domain_End_Av_Weight_Category :enumeration :CategoricValue_300 .
+:CategoricValue_301 rdf:type :CategoricValue .
+:CategoricValue_301 :value "B 300-365" .
+:Domain_End_Av_Weight_Category :enumeration :CategoricValue_301 .
+
+
+#######  Attribute "PRODUCT TYPE"
+
+:Attribute/PRODUCT_TYPE rdf:type :Attribute .
+:Attribute/PRODUCT_TYPE :dataType :CategoricType .
+:Attribute/PRODUCT_TYPE :name "PRODUCT TYPE" .
+
+:Attribute/PRODUCT_TYPE :hasValuesFrom :Domain_PRODUCT_TYPE .
+:Domain_PRODUCT_TYPE rdf:type :Domain .
+:Domain_PRODUCT_TYPE rdf:type :CategoricDomain .
+
+
+#######  Attribute "GROUPING PROD. BGT"
+
+:Attribute/GROUPING_PROD_BGT rdf:type :Attribute .
+:Attribute/GROUPING_PROD_BGT :dataType :CategoricType .
+:Attribute/GROUPING_PROD_BGT :name "GROUPING PROD. BGT" .
+
+:Attribute/GROUPING_PROD_BGT :hasValuesFrom :Domain_GROUPING_PROD_BGT .
+:Domain_GROUPING_PROD_BGT rdf:type :Domain .
+:Domain_GROUPING_PROD_BGT rdf:type :CategoricDomain .

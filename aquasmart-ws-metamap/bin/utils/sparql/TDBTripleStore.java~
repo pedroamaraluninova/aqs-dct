@@ -1,0 +1,190 @@
+package aquasmart.utils.sparql;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+
+import org.apache.jena.query.Dataset;
+import org.apache.jena.query.ReadWrite;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.tdb.TDBFactory;
+
+import play.Logger;
+import aquasmart.services.metamap.utils.STATIC;
+import aquasmart.utils.sparql.query.JenaExecution;
+import aquasmart.utils.sparql.query.SparqlExecution;
+import aquasmart.utils.sparql.update.SparqlTriple;
+import aquasmart.utils.sparql.update.SparqlUpdateBuilder;
+
+public class TDBTripleStore implements TripleStore 
+{
+	
+	private Dataset dataset;
+	private HashMap<String,Resource> resourceMap;
+	private HashMap<String,Property> propertyMap;
+	private static int resourceIndex;
+
+//	final static Logger log = Logger.getLogger(TDBTripleStore.class);
+	
+	public TDBTripleStore() 
+	{
+		this(STATIC.TDB_GLOSSARY);
+	}
+	
+	public TDBTripleStore(String tdbLocation) 
+	{
+		this.dataset = TDBFactory.createDataset(tdbLocation) ;
+		this.resourceMap = new HashMap<String, Resource>();
+		this.propertyMap = new HashMap<String, Property>();
+		
+	}
+	
+	@Override
+	public List<List<String>> executeRead(String query, String...selected) 
+	{
+		Logger.debug("executeRead: " + query);
+		List<List<String>> readResults = new LinkedList<List<String>>();
+
+		dataset.begin(ReadWrite.READ);
+		
+		Model model = dataset.getDefaultModel();
+		SparqlExecution exec = new JenaExecution(model, query);
+		
+		while(exec.hasNext())
+		{
+			SparqlExecution sparqlLine = exec.next();
+			List<String> line = new LinkedList<String>();
+			
+			for(int i = 0 ; i < selected.length ; i++)
+			{
+				
+				String result = sparqlLine.getValue(selected[i]);
+				Logger.debug("executeRead result " + i + ": " + result);
+				line.add(result);
+			}
+			
+			readResults.add(line);
+		}
+		
+		dataset.end();
+		
+		return readResults;
+	}
+	
+	@Override
+	public void executeWrite(SparqlUpdateBuilder updates) 
+	{
+		this.begin(ReadWrite.WRITE);
+		
+		Model model = dataset.getDefaultModel();
+		
+		for(SparqlTriple update : updates.updates)
+		{
+			Resource res = res(model, update.resource);
+			Property prop = prop(model, update.property);
+			
+			if(update.resourceObject)
+			{
+				Resource object = res(model, update.resourceObj);
+				model.add(res,prop,object);
+			} else
+			{
+				Literal lit;
+				if(update.lang != null)
+					lit = lit(model,update.literalObj, update.lang);
+				else
+					lit = lit(model,update.literalObj);
+				model.add(res,prop,lit);
+			}
+		}
+	
+		this.end();
+	}
+	
+
+	private void begin(ReadWrite perm) 
+	{
+		this.dataset.begin(perm);
+	}
+
+	public void commit() {
+		this.dataset.commit();
+	}
+
+	public void end() {
+		this.commit();
+		this.dataset.end();
+		this.dataset.close();
+		
+	}
+
+	private String escape(String headerName) 
+	{
+		return headerName
+				.replace(" ", "_")
+				.replace("(", "")
+				.replace(")", "")
+				.replace("%", "percent")
+				.replace("+", "plus");
+	}
+	
+	public String createURI(String base)
+	{
+		return this.createURI(base,0);
+	}
+	
+	private String createURI(String base, int index)
+	{
+		dataset.begin(ReadWrite.WRITE);
+		Model m = dataset.getDefaultModel();
+		String proposedKey = 
+				escape(base) + "_" + index;
+		Resource r = res(m, proposedKey );
+		if( m.containsResource( r ) )
+		{
+			dataset.end();
+			return createURI(base,++index);
+		}
+		dataset.end();
+		return proposedKey;
+	}
+	
+	protected Resource res(Model model, String uri)
+	{
+		Resource result = this.resourceMap.get(uri);
+		if(result != null)
+			return result;
+		
+		result = model.createResource(uri);
+		this.resourceMap.put(uri, result);
+		return result;
+	}
+	
+	protected Property prop(Model model, String prop)
+	{
+		Property result = this.propertyMap.get(prop);
+		if(result != null)
+			return result;
+		
+		result = model.createProperty(prop);
+		this.propertyMap.put(prop, result);
+		return result;
+	}
+	
+	protected Literal lit(Model model, String val)
+	{
+		return model.createLiteral( val == null ? "" : val);
+	}
+	
+	protected Literal lit(Model model, String val, String lang)
+	{
+		return model.createLiteral(val, lang);
+	}
+
+
+	
+
+}

@@ -1,0 +1,159 @@
+@(text : String, text2 : String, datasetID : String)(content : Html)
+
+@import helper._
+
+<html>
+	<head>
+	
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dataset viewer</title>
+	
+		<!-- REMOTE IMPORTS -->
+		
+		<!-- jQuery 1.10.2 -->
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<!-- jQuery DataTables -->
+		<link href='assets/media/css/jquery.dataTables.css' rel="stylesheet">
+    	<script src='assets/media/js/jquery.dataTables.js'></script>
+    	<!-- jQuery blockUI (for blocking overlays) -->
+    	<script src='assets/javascripts/jquery.blockUI.js'></script>
+    	<!-- vizjs stuff -->
+		<!-- <script src="http://visjs.org/dist/vis.js"></script>
+  		<link href="http://visjs.org/dist/vis.css" rel="stylesheet" type="text/css" />  -->
+  		<!-- Chart.js -->
+  		<script src="http://www.chartjs.org/assets/Chart.min.js"></script>
+  		<!-- D3 -->
+		<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<!-- C3 -->
+		<script src='assets/javascripts/c3/c3.min.js'></script>
+		<link rel="stylesheet" href="assets/javascripts/c3/c3.min.css"> 
+
+		<!-- PLAY STUFF -->
+		<link rel='shortcut icon' type='image/png' href='assets/images/favicon.png'>
+		
+		
+		<!-- Project stuff -->
+		<link rel='stylesheet' href='assets/stylesheets/main.css'>
+		
+		<script type="text/javascript" src="@routes.DataPullMetaMapJsonController.javascriptRoutes()"></script>
+		<script type="text/javascript" src="@routes.FrontEndController.javascriptRoutes()"></script>
+		
+		<!-- My libraries -->
+		<script type="text/javascript" src="assets/javascripts/multipleModal.js"></script>
+		<script type="text/javascript" src="assets/javascripts/blocker.js"></script>
+	
+		
+	
+	
+	</head>
+	<body style="background:grey">
+	
+		<nav class="navbar navbar-inverse" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		        <div class="navbar-brand" style="font-weight:bold">
+		        	<img alt="AQUASMART" src="assets/images/aqua_logo.png" class="maxed_img">
+		        </div>
+		    </div>
+		    <div class="navbar-header">
+		        <div class="navbar-brand" style="font-weight:bold">Data Cleaning Tool</div>
+		    </div>
+			
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    
+		      <ul class="nav navbar-nav">
+		        <li id="main_nav" class="disabled"><a href='javascript:showMain();'>Dataset</a></li>
+		        <!-- <li id="quality_nav" class="disabled"><a href='javascript:showDataQuality();'>Data Quality</a></li> -->
+		        <li id="about_nav" class=""><a href='javascript:about();'>About</a></li>
+		      </ul>
+		      
+		      <ul class="nav navbar-nav navbar-right">
+		       
+		        <li id="backNavBar">
+		        	
+		        </li>
+		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		
+
+		<div class="container" >
+		
+			<div class="row">
+				<div id="main" class="col-lg-12 shown" style="background:#FAFAFA; overflow:scroll; padding-top:15px">
+					@content
+					
+					<div class="well">
+						<img alt="AQUASMART" src="assets/images/aqua_logo.png" class="maxed_img"
+							style="margin-right:auto;margin-left:auto; display:block">
+						
+					</div>
+					
+				</div>
+				
+				<div id="about" class="col-lg-12 hidden" style="background:#FAFAFA; overflow:scroll; padding-top:15px">
+					
+					<div class="well">
+						<h4>Developed with:</h4>
+						<dl class="dl-horizontal">
+							<dt >HTML-CSS-JS</dt>
+							<dd>
+								<a href="http://getbootstrap.com" target=newtab>Bootstrap</a>, 
+								<a href="https://jquery.com" target=newtab>jQuery</a>, 
+								<a href="https://jqueryui.com" target=newtab>jQueryUI</a></dd>
+							<dt >Chart Visualization</dt>
+							<dd>
+								<a href="http://c3js.org" target=newtab>C3.js</a> (<a target=newtab href="http://d3js.org">D3</a>-enabled plugin) &amp; 
+								<a href="http://www.chartjs.org" target=newtab>ChartJS</a></dd>
+							<dt >Server-side</dt><dd>
+								<a href="https://www.playframework.com" target=newtab>Play Framework</a> [Java 8 + Scala]</dd>
+							<dt >Data Layer</dt><dd>
+								<a href="https://jena.apache.org" target=newtab>Apache Jena</a> (Semantic Triple-Store)</dd>
+						</dl>
+						
+						<h4>Developed by:</h4>
+						<dl class="dl-horizontal">
+							<dt>Development</dt><dd>Pedro Amaral (<a href="mailto:pma@@uninova.pt">email</a>)</dd>
+							<dt>Ontology Design</dt><dd>Pedro Amaral &amp; Pedro Oliveira (<a href="mailto:pga@@uninova.pt">email</a>)</dd>
+							<dt>Company</dt>
+							<dd>GRIS (Group for Research in Interoperability Systems) @@UNINOVA 
+								(<a href="http://gris.uninova.pt" target=newtab>website</a>)
+							</dd>
+						</dl>
+						
+				
+					</div>
+					<div class="well">
+						<img alt="AQUASMART" src="assets/images/aqua_logo.png" class="maxed_img" 
+							style="margin-right:auto;margin-left:auto; display:block">
+						<br>
+						<span style="float:right" >@text</span> 
+						<br>
+						<span style="float:right" >@text2</span> 
+					</div>
+					
+				</div>
+				
+								
+				
+				
+			</div>
+
+		</div>
+		
+		
+		
+	</body>
+</html>

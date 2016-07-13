@@ -1,0 +1,20 @@
+@(info : String, info2 : String)
+
+@import helper._
+
+@template( info ,info2) {
+	
+
+	<form action="javascript:void(0)"  enctype="multipart/form-data">
+		<div class="jumbotron">
+			<h1>Dataset Mapper &amp; Validator</h1>
+			<p>This is the front-end GUI for the (semanticly enhanced) dataset mapper and validator service of AQUASMART</p>
+		   <span class="main_title">Input a dataset file:</span>
+		   <input id="fileUploadForm" type="file" name="dataset">
+		</div>
+	</form>
+	<script type="text/javascript">
+		initialize();
+	</script>
+
+}

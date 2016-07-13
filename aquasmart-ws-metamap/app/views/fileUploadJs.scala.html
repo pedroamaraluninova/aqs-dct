@@ -1,0 +1,16 @@
+@(info : String, info2 : String)
+
+@import helper._
+
+@template( info, info2) {
+	
+
+	@form( action = routes.FrontEndController.upload , 'enctype -> "multipart/form-data"){
+		<div class="well">
+		   <span class="main_title">Input a dataset file:</span>
+		   <input type="file" name="dataset">
+		   <input type="submit" class="submit-btn" value="Submit Dataset">
+		</div>
+	}
+
+}

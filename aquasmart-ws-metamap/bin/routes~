@@ -1,0 +1,58 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.FrontEndController.index()
+
+# HTTP-JSON interface of the MetaMap Service
+POST	/createConcept				controllers.MetaMapJsonController.createConcept()
+POST	/selectConcept				controllers.MetaMapJsonController.associateAttributeToDataset()
+POST	/searchConcept				controllers.MetaMapJsonController.searchConcept()
+POST	/conceptInfo				controllers.MetaMapJsonController.getConceptInfo()
+POST	/createDataset				controllers.MetaMapJsonController.createDataset()
+POST	/analyseData				controllers.MetaMapJsonController.analyseData()
+POST	/createAttribute			controllers.MetaMapJsonController.createAttribute()
+POST	/mapToAttribute				controllers.MetaMapJsonController.mapToAttribute()
+POST	/attributeInfo				controllers.MetaMapJsonController.getAttributeInfo()
+POST	/analyseData				controllers.MetaMapJsonController.analyseData()
+POST	/statistics					controllers.MetaMapJsonController.produceStatistics()
+GET		/species					controllers.MetaMapJsonController.getSpecies()
+GET		/assets/javascripts/routes	controllers.MetaMapJsonController.javascriptRoutes()
+
+
+# HTTP-JSON interface of the MetaMap Service that gets data through a remote data pull service
+GET		/dct/:dsID						controllers.DataPullMetaMapJsonController.index(dsID : String)
+POST	/createConceptPull				controllers.DataPullMetaMapJsonController.createConcept()
+POST	/selectConceptPull				controllers.DataPullMetaMapJsonController.associateAttributeToDataset()
+POST	/searchConceptPull				controllers.DataPullMetaMapJsonController.searchConcept()
+POST	/conceptInfoPull				controllers.DataPullMetaMapJsonController.getConceptInfo()
+POST	/createDatasetPull				controllers.DataPullMetaMapJsonController.createDataset()
+POST	/analyseDataPull				controllers.DataPullMetaMapJsonController.analyseData()
+POST	/createAttributePull			controllers.DataPullMetaMapJsonController.createAttribute()
+POST	/mapToAttributePull				controllers.DataPullMetaMapJsonController.mapToAttribute()
+POST	/attributeInfoPull				controllers.DataPullMetaMapJsonController.getAttributeInfo()
+POST	/analyseDataPull				controllers.DataPullMetaMapJsonController.analyseData()
+POST	/statisticsPull					controllers.DataPullMetaMapJsonController.produceStatistics()
+GET		/speciesPull					controllers.DataPullMetaMapJsonController.getSpecies()
+GET		/distribution/:dsID/:type/:ind	controllers.DataPullMetaMapJsonController.getDistribution(dsID: String, type: String, ind : String)
+GET		/meta/:dsID						controllers.DataPullMetaMapJsonController.getMetadata(dsID: String)
+GET		/distincts/:dsID/:lab/:ind		controllers.DataPullMetaMapJsonController.getDistincts(dsID: String, lab: String, ind: Integer)
+GET		/delivery/:dsID					controllers.DataPullMetaMapJsonController.executeDelivery(dsID: String)
+GET		/assets/javascripts/pullRoutes	controllers.DataPullMetaMapJsonController.javascriptRoutes()
+
+
+# HTTP interface of the MetaMap Front-End
+POST	/uploadDataset				controllers.FrontEndController.upload()
+POST	/conceptModal				controllers.FrontEndController.conceptModal()
+POST	/attributeModal				controllers.FrontEndController.attributeModal()
+GET		/unmappedModal				controllers.FrontEndController.unmappedModal()
+GET		/invalidsModal				controllers.FrontEndController.invalidsModal()
+GET		/timeFormatModal			controllers.FrontEndController.timeFormatModal()
+GET		/assets/javascripts/fRoutes	controllers.FrontEndController.javascriptRoutes()
+
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+

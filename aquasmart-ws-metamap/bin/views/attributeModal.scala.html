@@ -1,0 +1,51 @@
+@( colName : String )
+<div class="modal fade" id="attributeModal">
+    <div class="modal-dialog">      
+        <div class="modal-content" style="margin-left:-125px;width:850px">
+        
+            <div class="modal-header">
+                <button type="button" class="close" onclick="backModal()" aria-hidden="true">&times;</button>
+                <h3 class="modal-title"><span class="bold">Create an attribute for "@colName"</span></h3>
+            </div>
+            
+            <div id="modal_body" class="modal-body container-fluid">
+            
+                <div class="well container col-lg-12 col-md-12 col-xs-12">
+                	<h4>Attribute values (10 max):</h4>
+                	<div id="distinctValues"></div>
+                </div>
+
+                <div class="well container col-lg-12 col-md-12 col-xs-12" id="mainSelectDomain">
+                
+                	<div class="col-lg-5 col-md-5 col-xs-5"  id="selectDomainInput">
+                		<h5>Select the domain type:</h5>
+               
+		               <select id="type_select" class="form-control ">
+		                  <option value="None">None</option>
+						  <option value="Numeric">Numeric</option>
+						  <option value="Categorical">Categorical</option>
+						  <option value="Temporal">Temporal</option>
+						  <option value="Textual">Textual</option> 
+						</select>
+						
+						<!-- select species goes here -->
+                	</div>
+                	
+					<div class="well col-lg-7 col-md-7 col-xs-7" id="domainDescription"  >
+					
+						DESC
+					</div>     
+						
+				</div>	  
+			
+	              
+	               
+                  
+            </div>
+            <div class="modal-footer">
+            	<input class="btn btn-default hidden" type="submit" id="submitAttr" value="Submit Attribute">
+                <button type="button" class="btn btn-default" onclick="backModal()">Back</button>  
+            </div>
+        </div>
+    </div>
+</div>

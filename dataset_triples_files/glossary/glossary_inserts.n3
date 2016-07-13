@@ -1,0 +1,111 @@
+@prefix gloss: <http://www.owl-ontologies.com/OntoGlossary.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+gloss:Region 	rdf:type 	gloss:Terms .
+gloss:Region 	gloss:Name 	"Region" .
+
+gloss:Site 	rdf:type 	gloss:Terms .
+gloss:Site 	gloss:Name 	"Site" .
+
+#### Unit that holds fish ####
+gloss:Unit 	rdf:type 	gloss:Terms .
+gloss:Unit 	gloss:Name 	"Unit" .
+
+#### start fish density, end fish density ####
+gloss:Fish_Density 	rdf:type 	gloss:Terms .
+gloss:Fish_Density 	gloss:Name 	"Fish Density" .
+gloss:Fish_Density	gloss:Definition	"Density of Fish in a cage. Quantity of fish by volume" .
+
+#### Lot quality ####
+gloss:Quality 	rdf:type 	gloss:Terms .
+gloss:Quality 	gloss:Name 	"Quality" .
+gloss:Quality 	gloss:Definition	"Quality of a fish lot (batch)" . 	
+
+#### Time #### (used for "Origin Year", "Origin Month", "From", "To")
+gloss:Time 	rdf:type 	gloss:Terms .
+gloss:Time 	gloss:Name 	"Time" .
+gloss:TIme 	gloss:Definition	"Temporal aspect of the data" .
+
+#### Fish Weight #### (used for "Start Average Weight", "End Average Weight" ...)
+gloss:Fish_Weight 	rdf:type 	gloss:Terms .
+gloss:Fish_Weight 	gloss:Name 	"Fish Weight" .
+gloss:Fish_Weight   gloss:Definition	"Measure of the average weight of fish" .
+
+#### Fish Weight by Feed #### (used for "Average Weight with Actual Feed" ...)
+gloss:Fish_Weight_Feed 	rdf:type 	gloss:Terms .
+gloss:Fish_Weight_Feed 	gloss:Name 	"Fish Weight by Feed" .
+gloss:Fish_Weight_Feed 	gloss:Definition 	"Measure of the average weight of fish that was fed using the current feed" .
+
+#### Feed Supplier ####
+gloss:Feed_Supplier 	rdf:type 	gloss:Terms .
+gloss:Feed_Supplier 	gloss:Name 	"Feed Supplier" .
+gloss:Feed_Supplier 	gloss:Definition 	"The entity that supplies the specific feed used" .
+
+
+#### Fish Quantity ####
+gloss:Fish_Quantity 	rdf:type 	gloss:Terms .
+gloss:Fish_Quantity  	gloss:Name 	"Fish Quantity" .
+gloss:Fish_Quantity 	gloss:Definition 	"Number of fish present in a tank/batch/cage" .
+
+
+#### Grading ####
+gloss:Grading 	rdf:type 	gloss:Terms .
+gloss:Grading 	gloss:Name 	"Fish Grading" .
+gloss:Grading 	gloss:Definition 	"Estimated size of fish in a tank/batch/cage" .
+
+
+#### Feeding Policy ####
+gloss:Feeding_Policy 	rdf:type 	gloss:Terms .
+gloss:Feeding_Policy 	gloss:Name 	"Feeding Policy" .
+
+#### Feeder ####
+gloss:Feeder 	rdf:type 	gloss:Terms .
+gloss:Feeder 	gloss:Name 	"Feeder" .
+
+
+#### Fasting ####
+gloss:Fasting 	rdf:type 	gloss:Terms .
+gloss:Fasting 	gloss:Name 	"Fasting" .
+gloss:Fasting 	gloss:Definition "Process of starving fish in order to improve their meat quality" .
+
+#### Temperature ####
+gloss:Temperature 	rdf:type 	gloss:Terms .
+gloss:Temperature 	gloss:Name 	"Temperature" .
+gloss:Temperature	gloss:Definition 	"A measure of the warmth or coldness of an object or substance with reference to some standard value" .
+
+#### Weight Category ####
+gloss:Weight_Category 	rdf:type 	gloss:Terms .
+gloss:Weight_Category 	gloss:Name 	"Weight Category" .
+gloss:Weight_Category 	gloss:Definition 	"A categorization that groups subsets of fish weight values" .
+
+#### Period Day Degrees ####
+gloss:Period_Day_Degrees 	rdf:type 	gloss:Terms .
+gloss:Period_Day_Degrees 	gloss:Name 	"Period Day Degrees" .
+
+#### Unknown #### (for all unknown stuff, in ardag : "cage comment", "feeding test", "aminolab check date", "pre-grow code")
+gloss:Unknown 	rdf:type 	gloss:Terms .
+gloss:Unknown 	gloss:Name 	"Unknown" .
+
+gloss:Unknown1 	rdf:type 	gloss:Terms .
+gloss:Unknown1 	gloss:Name 	"Unknown1" .
+
+gloss:Unknown2 	rdf:type 	gloss:Terms .
+gloss:Unknown2 	gloss:Name 	"Unknown2" .
+
+gloss:Unknown3 	rdf:type 	gloss:Terms .
+gloss:Unknown3 	gloss:Name 	"Unknown3" .
+
+gloss:Unknown4 	rdf:type 	gloss:Terms .
+gloss:Unknown4 	gloss:Name 	"Unknown4" .
+
+gloss:Unknown5 	rdf:type 	gloss:Terms .
+gloss:Unknown5 	gloss:Name 	"Unknown5" .
+
+gloss:Unknown6 	rdf:type 	gloss:Terms .
+gloss:Unknown6 	gloss:Name 	"Unknown6" .
+
